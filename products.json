@@ -4,7 +4,7 @@
     "name": "Laptop Stand",
     "price": 50,
     "category": "Accessories",
-    "image": "https://via.placeholder.com/300",
+    "image": "https://github.com/Campus-Business/CBN/blob/main/belt80.jpg",
     "specs": ["Adjustable Height", "Aluminum", "Portable"]
   },
   {
@@ -12,7 +12,7 @@
     "name": "Bluetooth Speaker",
     "price": 120,
     "category": "Electronics",
-    "image": "https://via.placeholder.com/300",
+    "image": "belt80.jpg",
     "specs": ["Wireless", "10hr Battery", "Water Resistant"]
   },
   {
@@ -31,4 +31,5 @@
     "image": "https://via.placeholder.com/300",
     "specs": ["Wireless", "10hr Battery", "Water Resistant"]
   }
+
 ]
