@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Stand",
+    "price": 50,
+    "category": "Accessories",
+    "image": "https://via.placeholder.com/300",
+    "specs": ["Adjustable Height", "Aluminum", "Portable"]
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Speaker",
+    "price": 120,
+    "category": "Electronics",
+    "image": "https://via.placeholder.com/300",
+    "specs": ["Wireless", "10hr Battery", "Water Resistant"]
+  },
+  {
+    "id": 1,
+    "name": "Laptop Stand",
+    "price": 50,
+    "category": "Accessories",
+    "image": "https://via.placeholder.com/300",
+    "specs": ["Adjustable Height", "Aluminum", "Portable"]
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Speaker",
+    "price": 120,
+    "category": "Electronics",
+    "image": "https://via.placeholder.com/300",
+    "specs": ["Wireless", "10hr Battery", "Water Resistant"]
+  }
+]
