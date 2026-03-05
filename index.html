@@ -1,225 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Campus Business Network</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Campus Business Network</title>
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
 </head>
 
 <body class="bg-gray-100 text-gray-800">
 
 <!-- Header -->
 <header class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-4">
-  <div class="container mx-auto flex justify-between items-center">
-    <h1 class="text-2xl font-bold">Campus Business Network</h1>
-    <nav>
-      <ul class="flex space-x-4 items-center">
-        <li><a href="index.html" class="hover:underline font-bold">Home</a></li>
-  
-          <a href="contact-us.html" class="hover:underline">Contact Us</a>
-        <li>
-          <a href="cart.html" class="hover:underline flex items-center">
-            Cart
-            <span id="cart-count"
-              class="ml-2 bg-red-600 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
-              0
-            </span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+<div class="container mx-auto flex justify-between items-center">
+
+<h1 class="text-2xl font-bold">
+Campus Business Network
+</h1>
+
+<nav>
+<ul class="flex space-x-6 items-center">
+
+<li>
+<a href="index.html" class="hover:underline font-bold">
+Home
+</a>
+</li>
+
+<li>
+<a href="contact-us.html" class="hover:underline">
+Contact Us
+</a>
+</li>
+
+<li>
+<a href="cart.html" class="hover:underline flex items-center">
+Cart
+
+<span id="cart-count"
+class="ml-2 bg-red-600 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
+0
+</span>
+
+</a>
+</li>
+
+</ul>
+</nav>
+
+</div>
 </header>
+
+<!-- Welcome Section -->
+<section class="bg-white py-14">
+
+<div class="container mx-auto text-center px-4">
+
+<h2 class="text-4xl font-bold mb-4">
+Welcome to Campus Business Network
+</h2>
+
+<p class="text-gray-600 text-lg max-w-2xl mx-auto">
+Your one-stop shop for electronics, clothes, provisions, accessories, and more.
+</p>
+
+</div>
+
+</section>
 
 <!-- Products -->
 <section class="container mx-auto px-4 py-10">
-  <h2 class="text-2xl font-bold mb-6">Available Products</h2>
 
-  <!-- Search -->
- <div class="mb-6">
-    <input 
-      type="text" 
-      id="search-input"
-      placeholder="Search products..."
-     class="w-full md:w-1/2 border border-gray-300 p-3 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-    >
-  </div>
+<h2 class="text-2xl font-bold mb-6">
+Available Products
+</h2>
 
-  <!-- Product Grid -->
-<div id="product-list"
-     class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+<!-- Search -->
+<div class="mb-6">
+
+<input
+type="text"
+id="search-input"
+placeholder="Search products..."
+
+class="w-full md:w-1/2 border border-gray-300 p-3 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+>
+
 </div>
+
+<!-- Product Grid -->
+<div id="product-list"
+
+class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+</div>
+
 </section>
 
 <!-- Footer -->
 <footer class="bg-gray-800 text-white py-4">
-  <div class="container mx-auto px-4 text-center">
-    <p>&copy; 2026 Campus Business Network. All rights reserved.</p>
-  </div>
+
+<div class="container mx-auto px-4 text-center">
+
+<p>
+&copy; 2026 Campus Business Network. All rights reserved.
+</p>
+
+</div>
+
 </footer>
 
 <script>
 
 let products = [];
-let cart = JSON.parse(localStorage.getItem('cbn-cart')) || [];
 
-const productList = document.getElementById('product-list');
-const searchInput = document.getElementById('search-input');
+let cart =
+JSON.parse(localStorage.getItem('cbn-cart')) || [];
+
+const productList =
+document.getElementById('product-list');
+
+const searchInput =
+document.getElementById('search-input');
 
 /* ==========================
-   CART COUNT
+CART COUNT
 ========================== */
+
 function updateCartCount() {
-  const count = cart.reduce((acc, item) => acc + item.qty, 0);
-  document.getElementById('cart-count').textContent = count;
+
+const count =
+cart.reduce((acc, item) => acc + item.qty, 0);
+
+document.getElementById('cart-count').textContent =
+count;
+
 }
 
 /* ==========================
-   ADD TO CART
+ADD TO CART
 ========================== */
+
 function addToCart(productId) {
 
-  const product = products.find(p => p.id === productId);
-  const existing = cart.find(item => item.id === productId);
+const product =
+products.find(p => p.id === productId);
 
-  if (existing) {
-    existing.qty += 1;
-  } else {
-    cart.push({
-      id: product.id,
-      name: product.name,
-      price: product.price,
-      qty: 1
-    });
-  }
+const existing =
+cart.find(item => item.id === productId);
 
-  localStorage.setItem('cbn-cart', JSON.stringify(cart));
-  updateCartCount();
-  alert("Added to cart!");
+if (existing) {
+
+existing.qty += 1;
+
 }
 
-/* ==========================
-   LOAD PRODUCTS
-========================== */
-async function loadProducts() {
-  try {
-    const response = await fetch("products.json");
-    products = await response.json();
-    renderProducts(products);
-  } catch (error) {
-    productList.innerHTML =
-      "<p class='text-red-500'>Failed to load products.</p>";
-  }
-}
+else {
 
-/* ==========================
-   RENDER PRODUCTS
-========================== */
-function renderProducts(filteredProducts) {
+cart.push({
 
-  productList.innerHTML = "";
+id: product.id,
+name: product.name,
+price: product.price,
+qty: 1
 
-  if (filteredProducts.length === 0) {
-    productList.innerHTML =
-      '<p class="text-gray-500">No matching products found.</p>';
-    return;
-  }
-
-  filteredProducts.forEach(product => {
-
-    let specsSection = "";
-
-    if (product.specs && product.specs.length > 0) {
-      specsSection = `
-        <div class="mb-3 text-left">
-          <button onclick="toggleSpecs(this)"
-            class="text-sm font-semibold text-blue-600 focus:outline-none">
-            ▶ Specifications
-          </button>
-          <ul class="hidden mt-2 text-xs text-gray-600 list-disc list-inside">
-            ${product.specs.map(spec => `<li>${spec}</li>`).join("")}
-          </ul>
-        </div>
-      `;
-    }
-
-    const div = document.createElement('div');
-    div.className =
-      'bg-white p-4 rounded shadow text-center';
-
-    div.innerHTML = `
-      <img src="${product.image}"
-        class="w-full h-40 object-cover rounded mb-3">
-
-      <h4 class="font-semibold text-lg mb-1">
-        ${product.name}
-      </h4>
-
-      <p class="text-gray-500 mb-1">
-        ₵${product.price}
-      </p>
-
-      <p class="text-sm text-blue-600 font-semibold mb-3">
-        ${product.category}
-      </p>
-
-      ${specsSection}
-
-      <button onclick="addToCart(${product.id})"
-        class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded w-full">
-        Add to Cart
-      </button>
-    `;
-
-    productList.appendChild(div);
-  });
-}
-
-/* ==========================
-   ACCORDION TOGGLE
-========================== */
-function toggleSpecs(button) {
-  const list = button.nextElementSibling;
-
-  if (list.classList.contains("hidden")) {
-    list.classList.remove("hidden");
-    button.innerText = "▼ Specifications";
-  } else {
-    list.classList.add("hidden");
-    button.innerText = "▶ Specifications";
-  }
-}
-
-/* ==========================
-   SEARCH
-========================== */
-searchInput.addEventListener('input', function() {
-
-  const searchText = this.value.toLowerCase();
-
-  const filtered = products.filter(product => {
-
-    const nameMatch =
-      product.name.toLowerCase().includes(searchText);
-
-    const categoryMatch =
-      product.category.toLowerCase().includes(searchText);
-
-    const specsMatch =
-      product.specs &&
-      product.specs.join(" ").toLowerCase().includes(searchText);
-
-    return nameMatch || categoryMatch || specsMatch;
-  });
-
-  renderProducts(filtered);
 });
 
+}
+
+localStorage.setItem(
+'cbn-cart',
+JSON.stringify(cart)
+);
+
+updateCartCount();
+
+alert("Added to cart!");
+
+}
+
 /* ==========================
-   INIT
+LOAD PRODUCTS
 ========================== */
+
+async function loadProducts() {
+
+try {
+
+const response =
+await fetch("products.json");
+
+products =
+await response.json();
+
+renderProducts(products);
+
+}
+
+catch (error) {
+
+productList.innerHTML =
+"<p class='text-red-500'>Failed to load products.</p>";
+
+}
+
+}
+
+/* ==========================
+RENDER PRODUCTS
+========================== */
+
+function renderProducts(filteredProducts) {
+
+productList.innerHTML = "";
+
+if (filteredProducts.length === 0) {
+
+productList.innerHTML =
+'<p class="text-gray-500">No matching products found.</p>';
+
+return;
+
+}
+
+filteredProducts.forEach(product => {
+
+let specsSection = "";
+
+if (product.specs && product.specs.length > 0) {
+
+specsSection = `
+
+<div class="mb-3 text-left">
+
+<button onclick="toggleSpecs(this)"
+
+class="text-sm font-semibold text-blue-600 focus:outline-none">
+
+▶ Specifications
+
+</button>
+
+<ul class="hidden mt-2 text-xs text-gray-600 list-disc list-inside">
+
+${product.specs.map(spec => `<li>${spec}</li>`).join("")}
+
+</ul>
+
+</div>
+
+`;
+
+}
+
+const div =
+document.createElement('div');
+
+div.className =
+'bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition';
+
+div.innerHTML = `
+
+<img src="${product.image}"
+
+class="w-full h-48 object-contain rounded-xl mb-4">
+
+<h4 class="font-semibold text-lg mb-1">
+
+${product.name}
+
+</h4>
+
+<p class="text-gray-500 mb-1">
+
+₵${product.price}
+
+</p>
+
+<p class="text-sm text-blue-600 font-semibold mb-3">
+
+${product.category}
+
+</p>
+
+${specsSection}
+
+<button onclick="addToCart(${product.id})"
+
+class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl w-full font-semibold">
+
+Add to Cart
+
+</button>
+
+`;
+
+productList.appendChild(div);
+
+});
+
+}
+
+/* ==========================
+ACCORDION TOGGLE
+========================== */
+
+function toggleSpecs(button) {
+
+const list =
+button.nextElementSibling;
+
+if (list.classList.contains("hidden")) {
+
+list.classList.remove("hidden");
+
+button.innerText =
+"▼ Specifications";
+
+}
+
+else {
+
+list.classList.add("hidden");
+
+button.innerText =
+"▶ Specifications";
+
+}
+
+}
+
+/* ==========================
+SEARCH
+========================== */
+
+searchInput.addEventListener(
+'input',
+function() {
+
+const searchText =
+this.value.toLowerCase();
+
+const filtered =
+products.filter(product => {
+
+const nameMatch =
+product.name.toLowerCase().includes(searchText);
+
+const categoryMatch =
+product.category.toLowerCase().includes(searchText);
+
+const specsMatch =
+product.specs &&
+product.specs.join(" ").toLowerCase().includes(searchText);
+
+return nameMatch || categoryMatch || specsMatch;
+
+});
+
+renderProducts(filtered);
+
+}
+);
+
+/* ==========================
+INIT
+========================== */
+
 loadProducts();
+
 updateCartCount();
 
 </script>
