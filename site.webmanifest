@@ -1,17 +1,17 @@
 {
-  "name": "Easebuy",
-  "short_name": "B",
+  "name": "Campus Business Network",
+  "short_name": "CBN",
   "icons": [
     {
       "src": "/https://ease-buy.github.io/Easebuy-shop/web-app-manifest-192x192.png",
       "sizes": "192x192",
-      "type": "image/png",
+      "type": "eb.png",
       "purpose": "maskable"
     },
     {
       "src": "/https://ease-buy.github.io/Easebuy-shop/web-app-manifest-512x512.png",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "eb.png",
       "purpose": "maskable"
     }
   ],
