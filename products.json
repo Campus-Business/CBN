@@ -1,36 +1,82 @@
 [
   {
     "id": 1,
-    "name": "Laptop Stand",
-    "price": 50,
+    "name": "USB-C",
+    "price": 28,
     "category": "Accessories",
-    "image": "belt80.jpg",
-    "specs": ["Adjustable Height", "Aluminum", "Portable"]
+    "image": "23.2.jpg",
+    "specs": ["", "", ""]
   },
   {
     "id": 2,
-    "name": "Bluetooth Speaker",
-    "price": 120,
-    "category": "Electronics",
-    "image": "belt80.jpg",
-    "specs": ["Wireless", "10hr Battery", "Water Resistant"]
+    "name": "Oraimo Necklace Headphone",
+    "price": 60,
+    "category": "Accessories",
+    "image": "55.jpg",
+    "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
   },
   {
-    "id": 1,
-    "name": "Laptop Stand",
+    "id": 3,
+    "name": "Wireless Pro 6plus",
+    "price": 60,
+    "category": "Accessories",
+    "image": "55.1.jpg",
+    "specs": ["Wireless","10hr Battery", "Water Resistant"]
+  },
+  {
+    "id": 4,
+    "name": "Speed USB Flash Drive",
     "price": 50,
     "category": "Accessories",
-    "image": "belt80.jpg",
-    "specs": ["Adjustable Height", "Aluminum", "Portable"]
+    "image": "45.1.jpg",
+    "specs": ["32GB"]
   },
   {
-    "id": 2,
-    "name": "Bluetooth Speaker",
-    "price": 120,
-    "category": "Electronics",
-    "image": "belt80.jpg",
-    "specs": ["Wireless", "10hr Battery", "Water Resistant"]
+    "id": 5,
+    "name": "Oraimo Air 12pro",
+    "price": 40,
+    "category": "Accessories",
+    "image": "35.jpg",
+    "specs": ["10hr Battery", "Water Resistant", "Wireless"]
+  },
+  {
+    "id": 6,
+    "name": "Sandisk Drive",
+    "price": 50,
+    "category": "Accessories",
+    "image": "45.jpg",
+    "specs": ["Type-C and Type-A", ""]
+  },
+  {
+    "id": 7,
+    "name": "FS-29 USB Flash Drive",
+    "price": 28,
+    "category": "Accessories",
+    "image": "23.1.jpg",
+    "specs": ["4GB"]
+  },
+  {
+    "id": 8,
+    "name": "MEGZY Headphone Type-C",
+    "price": 22,
+    "category": "Accessories",
+    "image": "17.jpg",
+    "specs": ["High Quality Type-c headphone"]
+  },
+  {
+    "id": 9,
+    "name": "SAMEG Travel Adapter",
+    "price": 28,
+    "category": "Accessories",
+    "image": "23.jpg",
+    "specs": ["USB- Type-C"]
+  },
+  {
+    "id": 10,
+    "name": "Hair Dryer",
+    "price": 205,
+    "category": "Electricals",
+    "image": "200.5",
+    "specs": ["Portable"]
   }
-
 ]
-
