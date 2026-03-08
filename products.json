@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Marado Blender",
-    "price": 120,
-    "category": "Electricals",
-    "image": "125.jpg",
-    "specs": ["2.5L"]
-  },
-  {
     "id": 2,
     "name": "Oraimo Necklace Headphone",
     "price": 60,
@@ -80,6 +72,7 @@
     "specs": ["Portable"]
   }
 ]
+
 
 
 
