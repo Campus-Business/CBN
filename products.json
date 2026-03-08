@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "name": "USB-C",
-    "price": 28,
-    "category": "Accessories",
-    "image": "23.2.jpg",
-    "specs": ["120W power adapter"]
+    "name": "Marado Blender",
+    "price": 120,
+    "category": "Electricals",
+    "image": "125.jpg",
+    "specs": ["2.5L"]
   },
   {
     "id": 2,
@@ -25,15 +25,15 @@
   },
   {
     "id": 4,
-    "name": "Speed USB Flash Drive",
-    "price": 50,
+    "name": "HP wireless Mouse",
+    "price": 32,
     "category": "Accessories",
-    "image": "45.1.jpg",
-    "specs": ["32GB"]
+    "image": "27.jpg",
+    "specs": ["Wireless"]
   },
   {
     "id": 5,
-    "name": "Oraimo Air 12pro",
+    "name": "Oraimo Air 12",
     "price": 40,
     "category": "Accessories",
     "image": "35.jpg",
@@ -80,4 +80,5 @@
     "specs": ["Portable"]
   }
 ]
+
 
