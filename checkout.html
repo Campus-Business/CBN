@@ -114,7 +114,7 @@ function renderSummary() {
   cart.forEach(item => {
     const li = document.createElement("li");
     li.textContent =
-      `${item.name} x${item.qty} = GHC${item.price * item.qty}`;
+      `${item.name} x${item.qty} = GH₵${item.price * item.qty}`;
     summaryList.appendChild(li);
     total += item.price * item.qty;
   });
@@ -144,7 +144,7 @@ document.getElementById("checkout-form")
   let orderTotal = 0;
 
   cart.forEach(item => {
-    orderText += `${item.name} x${item.qty} = GHC${item.price * item.qty}\n`;
+    orderText += `${item.name} x${item.qty} = GH₵${item.price * item.qty}\n`;
     orderTotal += item.price * item.qty;
   });
 
