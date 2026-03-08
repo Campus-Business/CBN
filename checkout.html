@@ -114,7 +114,7 @@ function renderSummary() {
   cart.forEach(item => {
     const li = document.createElement("li");
     li.textContent =
-      `${item.name} x${item.qty} = ₵${item.price * item.qty}`;
+      `${item.name} x${item.qty} = GHC${item.price * item.qty}`;
     summaryList.appendChild(li);
     total += item.price * item.qty;
   });
@@ -144,7 +144,7 @@ document.getElementById("checkout-form")
   let orderTotal = 0;
 
   cart.forEach(item => {
-    orderText += `${item.name} x${item.qty} = ₵${item.price * item.qty}\n`;
+    orderText += `${item.name} x${item.qty} = GHC${item.price * item.qty}\n`;
     orderTotal += item.price * item.qty;
   });
 
@@ -170,7 +170,7 @@ document.getElementById("checkout-form")
     <div class="min-h-screen flex items-center justify-center bg-green-100">
       <div class="bg-white p-8 rounded-xl shadow-lg text-center max-w-md">
         <h1 class="text-2xl font-bold text-green-600 mb-3">
-          🎉 Thank You for Your Order!
+          🎉 Thank You for Your Order!, We will contact you soon.
         </h1>
         <p class="mb-4">Your order has been received successfully.</p>
         <p class="font-semibold mb-4">Reference ID: ${referenceID}</p>
