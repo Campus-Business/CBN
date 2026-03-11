@@ -1,344 +1,377 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Campus Business Network</title>
 
-<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
 </head>
 
-<body class="bg-gray-100 text-gray-800 pt-20 pb-20">
+<body class="bg-gray-100 text-gray-800">
 
-<!-- HEADER -->
-<header class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-4 fixed top-0 left-0 w-full z-50 shadow-lg">
+<!-- Header -->
+<header class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-4">
+<div class="container mx-auto flex justify-between items-center">
 
-<div class="flex justify-between items-center max-w-7xl mx-auto">
+<h1 class="text-2xl font-bold">
+Campus Business Network
+</h1>
 
-<h1 class="text-xl font-bold">CBN Marketplace</h1>
+<nav>
+<ul class="flex space-x-6 items-center">
 
-<div class="flex gap-4">
-
-<a href="index.html">Home</a>
-
-<a href="cart.html" class="relative">
-Cart
-<span id="cart-count"
-class="absolute -top-2 -right-3 bg-red-600 text-xs px-2 py-0.5 rounded-full">0</span>
+<li>
+<a href="index.html" class="hover:underline font-bold">
+Home
 </a>
+</li>
 
-<a href="contact.html">Contact</a>
+<li>
+<a href="contact-us.html" class="hover:underline">
+Contact Us
+</a>
+</li>
+
+<li>
+<a href="cart.html" class="hover:underline flex items-center">
+Cart
+
+<span id="cart-count"
+class="ml-2 bg-red-600 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
+0
+</span>
+
+</a>
+</li>
+
+</ul>
+</nav>
 
 </div>
-
-</div>
-
 </header>
 
-<!-- PRODUCT SECTION -->
-<main class="max-w-7xl mx-auto px-4">
+<!-- Welcome Section -->
+<section class="bg-white py-14">
 
-<h2 class="text-2xl font-bold my-6">Products</h2>
+<div class="container mx-auto text-center px-4">
 
-<!-- SEARCH -->
+<h2 class="text-4xl font-bold mb-4">
+Welcome to Campus Business Network
+</h2>
+
+<p class="text-gray-600 text-lg max-w-2xl mx-auto">
+Your one-stop shop for electronics, clothes, provisions, accessories, and more.
+</p>
+
+</div>
+
+</section>
+
+<!-- Products -->
+<section class="container mx-auto px-4 py-10">
+
+<h2 class="text-2xl font-bold mb-6">
+Available Products
+</h2>
+
+<!-- Search -->
+<div class="mb-6">
+
 <input
-id="searchInput"
 type="text"
+id="search-input"
 placeholder="Search products..."
-class="w-full md:w-1/2 mb-4 p-3 border rounded-lg shadow-sm">
 
-<!-- CATEGORY FILTER -->
-<select
-id="categoryFilter"
-class="mb-6 p-3 border rounded-lg">
+class="w-full md:w-1/2 border border-gray-300 p-3 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+>
 
-<option value="all">All Categories</option>
-<option value="Electronics">Electronics</option>
-<option value="Clothes">Clothes</option>
-<option value="Accessories">Accessories</option>
-<option value="Provisions">Provisions</option>
-<option value="Sneakers">Sneakers</option>
-<option value="Cosmetics">Cosmetics</option>
-<option value="Women`wear">Women`wear</option>
+</div>
 
-  
-  
-</select>
-
-<!-- PRODUCTS -->
+<!-- Product Grid -->
 <div id="product-list"
-class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-</div>
-
-</main>
-
-<!-- PRODUCT MODAL -->
-<div id="productModal"
-class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
-
-<div class="bg-white p-6 rounded-xl max-w-md w-full relative">
-
-<button onclick="closeModal()"
-class="absolute top-2 right-3 text-gray-600 text-xl">✕</button>
-
-<img id="modalImage" class="w-full h-48 object-contain mb-4">
-
-<h3 id="modalName" class="text-xl font-bold mb-2"></h3>
-
-<p id="modalPrice" class="text-green-600 font-semibold mb-2"></p>
-
-<ul id="modalSpecs"
-class="text-sm text-gray-600 list-disc list-inside"></ul>
+class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
 
 </div>
 
-</div>
+</section>
 
-<!-- FLOATING CART -->
-<a href="cart.html"
-class="fixed bottom-20 right-6 bg-blue-600 text-white p-4 rounded-full shadow-xl z-50">
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-4">
 
-🛒
+<div class="container mx-auto px-4 text-center">
 
-<span id="floating-cart-count"
-class="absolute -top-2 -right-2 bg-red-600 text-xs px-2 py-0.5 rounded-full">0</span>
-
-</a>
-
-<!-- MOBILE NAV -->
-<div class="fixed bottom-0 left-0 w-full bg-white border-t shadow-lg flex justify-around items-center py-3 z-40 md:hidden">
-
-<a href="index.html" class="text-sm text-gray-700 text-center">
-🏠<br>Home
-</a>
-
-<a href="#product-list" class="text-sm text-gray-700 text-center">
-🛍<br>Products
-</a>
-
-<a href="cart.html" class="text-sm text-gray-700 text-center">
-🛒<br>Cart
-</a>
-
-<a href="contact.html" class="text-sm text-gray-700 text-center">
-☎<br>Contact
-</a>
+<p>
+&copy; 2026 Campus Business Network. All rights reserved.
+</p>
 
 </div>
+
+</footer>
 
 <script>
 
-/* FETCH PRODUCTS */
+let products = [];
 
-let products = []
+let cart =
+JSON.parse(localStorage.getItem('cbn-cart')) || [];
 
-async function loadProducts(){
+const productList =
+document.getElementById('product-list');
 
-const res = await fetch("products.json")
+const searchInput =
+document.getElementById('search-input');
 
-products = await res.json()
+/* ==========================
+CART COUNT
+========================== */
 
-renderProducts(products)
-
-}
-
-/* CART */
-
-let cart = JSON.parse(localStorage.getItem("cbn-cart")) || []
-
-function updateCartCount(){
+function updateCartCount() {
 
 const count =
-cart.reduce((acc,item)=>acc+item.qty,0)
+cart.reduce((acc, item) => acc + item.qty, 0);
 
-document.getElementById("cart-count").textContent=count
-document.getElementById("floating-cart-count").textContent=count
+document.getElementById('cart-count').textContent =
+count;
 
 }
 
-function addToCart(id){
+/* ==========================
+ADD TO CART
+========================== */
 
-const product = products.find(p=>p.id===id)
+function addToCart(productId) {
 
-const item = cart.find(p=>p.id===id)
+const product =
+products.find(p => p.id === productId);
 
-if(item){
+const existing =
+cart.find(item => item.id === productId);
 
-item.qty++
+if (existing) {
 
-}else{
+existing.qty += 1;
+
+}
+
+else {
 
 cart.push({
-id:product.id,
-name:product.name,
-price:product.price,
-vendor:product.vendor,
-qty:1
-})
+
+id: product.id,
+name: product.name,
+price: product.price,
+qty: 1
+
+});
 
 }
 
-localStorage.setItem("cbn-cart", JSON.stringify(cart))
+localStorage.setItem(
+'cbn-cart',
+JSON.stringify(cart)
+);
 
-updateCartCount()
+updateCartCount();
 
-}
-
-/* IMAGE SLIDER */
-
-let imageIndex={}
-
-function nextImage(productId){
-
-const product = products.find(p=>p.id===productId)
-
-if(!imageIndex[productId]){
-imageIndex[productId]=0
-}
-
-imageIndex[productId]++
-
-if(imageIndex[productId]>=product.images.length){
-imageIndex[productId]=0
-}
-
-document.getElementById("img-"+productId).src=
-product.images[imageIndex[productId]]
+alert("Added to cart!");
 
 }
 
-function prevImage(productId){
+/* ==========================
+LOAD PRODUCTS
+========================== */
 
-const product = products.find(p=>p.id===productId)
+async function loadProducts() {
 
-if(!imageIndex[productId]){
-imageIndex[productId]=0
-}
+try {
 
-imageIndex[productId]--
+const response =
+await fetch("products.json");
 
-if(imageIndex[productId]<0){
-imageIndex[productId]=product.images.length-1
-}
+products =
+await response.json();
 
-document.getElementById("img-"+productId).src=
-product.images[imageIndex[productId]]
-
-}
-
-/* PRODUCT MODAL */
-
-function openProduct(product){
-
-document.getElementById("productModal").classList.remove("hidden")
-
-document.getElementById("modalImage").src=product.images[0]
-document.getElementById("modalName").innerText=product.name
-document.getElementById("modalPrice").innerText="GH₵ "+product.price
-
-const specsList=document.getElementById("modalSpecs")
-specsList.innerHTML=""
-
-product.specs.forEach(spec=>{
-const li=document.createElement("li")
-li.innerText=spec
-specsList.appendChild(li)
-})
+renderProducts(products);
 
 }
 
-function closeModal(){
-document.getElementById("productModal").classList.add("hidden")
+catch (error) {
+
+productList.innerHTML =
+"<p class='text-red-500'>Failed to load products.</p>";
+
 }
 
-/* RENDER PRODUCTS */
+}
 
-function renderProducts(list){
+/* ==========================
+RENDER PRODUCTS
+========================== */
 
-const container=document.getElementById("product-list")
+function renderProducts(filteredProducts) {
 
-container.innerHTML=""
+productList.innerHTML = "";
 
-list.forEach(product=>{
+if (filteredProducts.length === 0) {
 
-const card=document.createElement("div")
+productList.innerHTML =
+'<p class="text-gray-500">No matching products found.</p>';
 
-card.className="bg-white rounded-xl shadow p-4"
+return;
 
-card.innerHTML=`
+}
 
-<div class="relative w-full h-48 mb-4 overflow-hidden rounded-xl">
+filteredProducts.forEach(product => {
 
-<img src="${product.images[0]}"
-id="img-${product.id}"
-class="w-full h-full object-contain cursor-pointer"
-onclick='openProduct(${JSON.stringify(product)})'>
+let specsSection = "";
 
-<button onclick="prevImage(${product.id})"
-class="absolute left-1 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 rounded">‹</button>
+if (product.specs && product.specs.length > 0) {
 
-<button onclick="nextImage(${product.id})"
-class="absolute right-1 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 rounded">›</button>
+specsSection = `
+
+<div class="mb-3 text-left">
+
+<button onclick="toggleSpecs(this)"
+
+class="text-sm font-semibold text-blue-600 focus:outline-none">
+
+▶ Specifications
+
+</button>
+
+<ul class="hidden mt-2 text-xs text-gray-600 list-disc list-inside">
+
+${product.specs.map(spec => `<li>${spec}</li>`).join("")}
+
+</ul>
 
 </div>
 
-<h3 class="font-semibold">${product.name}</h3>
+`;
 
-<p class="text-green-600 font-bold mb-2">GH₵ ${product.price}</p>
+}
+
+const div =
+document.createElement('div');
+
+div.className =
+'bg-white p-2 rounded-2xl shadow-md text-center hover:shadow-xl transition';
+
+div.innerHTML = `
+
+<img src="${product.image}"
+
+class="w-full h-48 object-contain rounded-xl mb-4">
+
+<h4 class="font-semibold text-lg mb-1">
+
+${product.name}
+
+</h4>
+
+<p class="text-gray-500 mb-1">
+
+GH₵${product.price}
+
+</p>
+
+<p class="text-sm text-blue-600 font-semibold mb-3">
+
+${product.category}
+
+</p>
+
+${specsSection}
 
 <button onclick="addToCart(${product.id})"
-class="bg-blue-600 text-white w-full py-2 rounded hover:bg-blue-700">
+
+class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl w-full font-semibold">
+
 Add to Cart
+
 </button>
 
-`
+`;
 
-container.appendChild(card)
+productList.appendChild(div);
 
-})
+});
 
 }
 
-/* SEARCH */
+/* ==========================
+ACCORDION TOGGLE
+========================== */
 
-document.getElementById("searchInput")
-.addEventListener("input",function(){
+function toggleSpecs(button) {
 
-const value=this.value.toLowerCase()
+const list =
+button.nextElementSibling;
 
-const filtered = products.filter(p=>
-p.name.toLowerCase().includes(value) ||
-p.specs.join(" ").toLowerCase().includes(value)
-)
+if (list.classList.contains("hidden")) {
 
-renderProducts(filtered)
+list.classList.remove("hidden");
 
-})
+button.innerText =
+"▼ Specifications";
 
-/* CATEGORY FILTER */
-
-document.getElementById("categoryFilter")
-.addEventListener("change",function(){
-
-const cat=this.value
-
-if(cat==="all"){
-renderProducts(products)
-return
 }
+
+else {
+
+list.classList.add("hidden");
+
+button.innerText =
+"▶ Specifications";
+
+}
+
+}
+
+/* ==========================
+SEARCH
+========================== */
+
+searchInput.addEventListener(
+'input',
+function() {
+
+const searchText =
+this.value.toLowerCase();
 
 const filtered =
-products.filter(p=>p.category===cat)
+products.filter(product => {
 
-renderProducts(filtered)
+const nameMatch =
+product.name.toLowerCase().includes(searchText);
 
-})
+const categoryMatch =
+product.category.toLowerCase().includes(searchText);
 
-loadProducts()
-updateCartCount()
+const specsMatch =
+product.specs &&
+product.specs.join(" ").toLowerCase().includes(searchText);
+
+return nameMatch || categoryMatch || specsMatch;
+
+});
+
+renderProducts(filtered);
+
+}
+);
+
+/* ==========================
+INIT
+========================== */
+
+loadProducts();
+
+updateCartCount();
 
 </script>
 
