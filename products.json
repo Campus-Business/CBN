@@ -1,78 +1,643 @@
-[
+
+  [
   {
     "id": 2,
     "name": "Oraimo Necklace Headphone",
     "price": 60,
     "category": "Accessories",
-    "image": "55.jpg",
+    "images": ["55.jpg"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
   },
   {
     "id": 3,
     "name": "Wireless Pro 6plus",
     "price": 60,
+     "vendor": "Saiba",
     "category": "Accessories",
-    "image": "55.1.jpg",
+    "images": ["55.1.jpg"],
     "specs": ["Wireless","10hr Battery", "Water Resistant"]
   },
   {
     "id": 4,
     "name": "HP wireless Mouse",
     "price": 32,
+     "vendor": "Saiba",
     "category": "Accessories",
-    "image": "27.jpg",
+    "images": ["27.jpg"],
     "specs": ["Wireless"]
   },
   {
     "id": 5,
     "name": "Oraimo Air 12",
-    "price": 40,
+    "price": 50,
+     "vendor": "Saiba",
     "category": "Accessories",
-    "image": "35.jpg",
+    "images": ["35.jpg"],
     "specs": ["10hr Battery", "Water Resistant", "Wireless"]
   },
   {
     "id": 6,
     "name": "Sandisk Drive",
     "price": 50,
+     "vendor": "Saiba",
     "category": "Accessories",
-    "image": "45.jpg",
+    "images": ["45.jpg"],
     "specs": ["Type-C and Type-A", ""]
   },
   {
     "id": 7,
     "name": "FS-29 USB Flash Drive",
     "price": 28,
+     "vendor": "Saiba",
     "category": "Accessories",
-    "image": "23.1.jpg",
+    "images": ["23.1.jpg"],
     "specs": ["4GB"]
   },
   {
     "id": 8,
     "name": "MEGZY Headphone Type-C",
     "price": 22,
+     "vendor": "Saiba",
     "category": "Accessories",
-    "image": "17.jpg",
+    "images": ["17.jpg"],
     "specs": ["High Quality Type-c headphone"]
   },
   {
     "id": 9,
     "name": "SAMEG Travel Adapter",
     "price": 28,
+     "vendor": "Saiba",
     "category": "Accessories",
-    "image": "23.jpg",
+    "images": ["23.jpg"],
     "specs": ["USB- Type-C"]
   },
   {
     "id": 10,
     "name": "Hair Dryer",
     "price": 205,
-    "category": "Electricals",
-    "image": "200.5.jpg",
+     "vendor": "Saiba",
+    "category": "Accessories",
+    "images": ["200.5.jpg"],
     "specs": ["Portable"]
   }
+,
+  {
+  "id": 1,
+  "name": "Twin game controller",
+  "price": 120,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "95.jpg"
+  ],
+  "specs": [
+    "Dual‑Shock Game Controller* – _Wireless gamepad with dual analog sticks",
+    "vibration motors",
+    "ergonomic design",
+    "Works with PC/consoles",
+    "enhances gameplay with precise control",
+    "tactile feedback."
+  ]
+},
+
+{
+  "id": 11,
+  "name": "Topscarett Kettle",
+  "price": 110,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "100zz.jpg"
+  ],
+  "specs": [
+    "Topscarett Orange Kettle",
+    "2L stainless steel electric kettle",
+    "Fast boiling",
+    "boil‑dry safety",
+    "Orange finish adds style",
+    "perfect for kitchen or office use."
+  ]
+},
+{
+  "id": 12,
+  "name": "Glass Electric Kettle",
+  "price": 160,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "150z.jpg"
+  ],
+  "specs": [
+    "Black Electric Kettle",
+    "2L electric kettle",
+    "with glass body",
+    "black base",
+    "rapid boiling",
+    "auto shut‑off",
+    "Safe boil",
+    "dry protection",
+    "sleek design fits modern kitchens."
+  ]
+},
+{
+  "id": 13,
+  "name": "Black Electric Kettle",
+  "price": 160,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "150z.jpg"
+  ],
+  "specs": [
+    "Black Electric Kettle",
+    "2L electric kettle",
+    "with glass body",
+    "black base",
+    "rapid boiling",
+    "auto shut‑off",
+    "Safe boil",
+    "dry protection",
+    "sleek design fits modern kitchens."
+  ]
+},
+{
+  "id": 14,
+  "name": "Winning Star Iron",
+  "price": 310,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "300z.jpg"
+  ],
+  "specs": [
+    "Winning Star Steam Iron",
+    "Heavy‑duty steam iron with ceramic soleplate",
+    "adjustable steam control",
+    "220/240 V",
+    "2200W power; ideal for professional‑grade ironing and fabric care."
+  ]
+},
+{
+  "id": 15,
+  "name": "White Humidifier",
+  "price": 295,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "285z.jpg"
+  ],
+  "specs": [
+    "White Humidifier",
+    "Compact ultrasonic cool‑mist humidifier with adjustable output",
+    "Enhances indoor air quality in rooms or offices",
+    "quiet operation and easy refill."
+  ]
+},
+{
+  "id": 16,
+  "name": "Pink Portable Fan",
+  "price": 110,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "100z.jpg"
+  ],
+  "specs": [
+    "Pink Portable Fan",
+    "Compact rechargeable mini fan with 3‑speed settings",
+    "flexible neck for directional airflow",
+    "Perfect for students needing cool breeze in hostels or classrooms",
+    "Ideal for on‑the‑go use; battery lasts up to 6 hrs."
+  ]
+},
+{
+  "id": 17,
+  "name": "Morgan Portable Fan",
+  "price": 70,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "60z.jpg"
+  ],
+  "specs": [
+    "Morgan Portable Fan",
+    "Mini rechargeable portable fan with sturdy base",
+    "2‑speed operation",
+    "Provides powerful airflow for outdoor or indoor use",
+    "battery runs up to 6 hrs"
+  ]
+},
+{
+  "id": 18,
+  "name": "Extension Socket",
+  "price": 65,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "60zz.jpg"
+  ],
+  "specs": [
+    "Extension Socket",
+    "Multi‑outlet extension cord",
+    "2 USB ports",
+    "surge protection features",
+    "colored plug indicators for easy setup",
+    "ideal for charging multiple devices."
+  ]
+},
+{
+  "id": 19,
+  "name": "White Extension",
+  "price": 80,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "75z.jpg"
+  ],
+  "specs": [
+    "White Extension Socket",
+    "4‑outlet power strip",
+    "individual switches",
+    "USB charging ports",
+    "Compact desk‑friendly design",
+    "safely powering laptops",
+    "and phones"
+  ]
+},
+{
+  "id": 20,
+  "name": "RGB Wireless Mouse",
+  "price": 50,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "IMG-20260311-WA0001.jpg",
+  "IMG-20260311-WA0000.jpg"
+  ],
+  "specs": [
+    "Connectivity: Dual‑mode",
+    "Bluetooth + 2.4 GHz wireless receiver",
+    "Compatibility: Windows 8/10",
+    "Android 5.0",
+    "iOS 13",
+    "macOS 10.10.",
+    "Design: Sleek silver body with RGB LED light strip",
+    "Features: Rechargeable battery",
+    "ergonomic shape",
+    "smooth optical tracking",
+    "Usage: Ideal for laptops",
+    "tablets",
+    "desktop PCs",
+    "perfect for office or gaming setups."
+  ]
+},
+{
+  "id": 21,
+  "name": "RGB Speaker",
+  "price": 65,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "55z.jpg"
+  ],
+  "specs": [
+    "V105 SUN Wireless RGB Speaker Phone Stand",
+    "Bluetooth: 5.0",
+    "Output Power: ~5W",
+    "Battery: ~1200–1500 mAh",
+    "rechargeable",
+    "Lighting: RGB LED ring",
+    "Input: Bluetooth / TF card / AUX",
+    "Charging: USB",
+    "Function: Phone holder + speaker",
+    "Playback Time: 4–6 hours",
+    ""
+  ]
+},
+{
+  "id": 22,
+  "name": "Dell Wireless Mouse",
+  "price": 32,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": [
+    "32z.jpg"
+  ],
+  "specs": [
+    "Dell Wireless Optical Mouse\nSpecifications",
+    "Type: Wireless USB Mouse",
+    "DPI: ~1000–1600 DPI",
+    "Buttons: 3 (Left",
+    "Right",
+    "Scroll)",
+    "Sensor: Optical",
+    "Compatibility: Windows / Mac / Linux",
+    "non-rechageable"
+  ]
+},
+{
+  "id": 23,
+  "name": "Bluetooth Speaker",
+  "price": 195,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "185z.jpg"
+  ],
+  "specs": [
+    "Maxbest M8 Portable Bluetooth Speaker",
+    "Specifications",
+    "Bluetooth: 5.0",
+    "Output Power: ~5W",
+    "Battery: 1200 mAh",
+    "Playback Time: 3–5 hours",
+    "Input: Bluetooth / TF / USB / AUX",
+    "Charging: Micro-USB",
+    ""
+  ]
+},
+{
+  "id": 24,
+  "name": "Stereo Headphones",
+  "price": 70,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "65z.jpg"
+  ],
+  "specs": [
+    "Wireless Stereo Headphones",
+    "Specifications",
+    "Bluetooth: 5.0",
+    "Battery: ~300 mAh",
+    "Playback Time: 6–8 hours",
+    "Charging: USB",
+    "Features: Foldable / Mic / Music & Calls",
+    "Range: ~10 m",
+    ""
+  ]
+},
+{
+  "id": 25,
+  "name": "Wired Game Controller",
+  "price": 70,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": [
+    "65zz.jpg"
+  ],
+  "specs": [
+    "DualShock 2 Wired Game Controller",
+    "Specifications",
+    "Type: Wired controller",
+    "Platform: PlayStation 2 / PC adapter",
+    "Buttons: 12 digital + 2 analog sticks",
+    "Vibration: Dual vibration motors",
+    "Cable Length: ~1.8 m",
+    ""
+  ]
+},
+{
+  "id": 26,
+  "name": " Travel Steam Iron",
+  "price": 130,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "120z.jpg"
+  ],
+  "specs": [
+    "Portable Travel Steam Iron",
+    "Specifications",
+    "Power: ~1000 W",
+    "Voltage: 220–240 V",
+    "Plate: Non-stick soleplate",
+    "Function: Dry + Steam ironing",
+    "Water Tank: Small travel reservoir"
+  ]
+},
+{
+  "id": 27,
+  "name": "Itel table fan",
+  "price": 560,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "550z.jpg"
+  ],
+  "specs": [
+    "Table Fan",
+    "Electric",
+    "Specifications",
+    "Itel\nFan Size: 16 inch\nSpeed Levels: 3",
+    "Power: 40–60 W",
+    "Voltage: 220–240 V",
+    "Features: Oscillation / Adjustable tilt",
+    ""
+  ]
+},
+{
+  "id": 28,
+  "name": "AKSA Melon Perfume",
+  "price": 105,
+  "vendor": "Saiba",
+  "category": "Cosmetics",
+  "images": [
+    "100zzz.jpg"
+  ],
+  "specs": [
+    "AKSA Melon Perfume",
+    "Specifications",
+    "Type: Eau de Parfum",
+    "Fragrance: Melon",
+    "Volume: 100 ml\nGender: Unisex",
+    "Long lasting scent",
+    ""
+  ]
+},
+{
+  "id": 29,
+  "name": "Oraimo AirBuds Pro",
+  "price": 60,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "50z.jpg"
+  ],
+  "specs": [
+    "Oraimo AirBuds Pro",
+    "Specifications",
+    "Bluetooth: 5.2",
+    "Battery: ~400 mAh case",
+    "Play Time: ~24 hours (with case)",
+    "Charging: USB-C",
+    "Features: Touch control / Mic",
+    "Noise reduction"
+  ]
+},
+{
+  "id": 30,
+  "name": "Solar LED Light",
+  "price": 140,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "135z.jpg"
+  ],
+  "specs": [
+    "Solar LED Flood Light",
+    "Specifications",
+    "Power: ~100–200 W equivalent",
+    "Battery: Lithium rechargeable\nLighting Time: 8–12 hours\nWaterproof: IP65"
+  ]
+},
+{
+  "id": 31,
+  "name": "120W USB-C Fast Charger",
+  "price": 35,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": [
+    "23.2.jpg"
+  ],
+  "specs": [
+    "120W USB-C Fast Charger",
+    "Specifications",
+    "Output Power: 120 W",
+    "Port: USB-C",
+    "Fast Charging: Supported",
+    "Input: 100–240 V",
+    "Protection: Over-current / Over-voltage"
+    
+  ]
+},
+{
+  "id": 32,
+  "name": "Portable Power Bank",
+  "price": 360,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "350z.jpg"
+  ],
+  "specs": [
+    "Portable Power Bank",
+    "Specs",
+    "Capacity: 10000–20000 mAh",
+    "Output: 5V / 2.1A",
+    "Ports: Dual USB",
+    "Charging: Micro-USB / USB-C",
+    "LED battery indicator",
+    ""
+  ]
+},
+{
+  "id": 33,
+  "name": "32GB USB Flash Drive",
+  "price": 50,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": [
+    "45.1.jpg"
+  ],
+  "specs": [
+    "32GB USB Flash Drive",
+    "Specs",
+    "Storage: 32 GB",
+    "Interface: USB 2.0 / 3.0",
+    "Compatibility: Windows / Mac / Linux",
+    "Material: Metal"
+  ]
+},
+{
+  "id": 34,
+  "name": "DIY Plastic Wardrobe",
+  "price": 460,
+  "vendor": "Saiba",
+  "category": "Clothes",
+  "images": [
+    "450.jpg"
+  ],
+  "specs": [
+    "DIY Plastic Wardrobe Cabinet",
+    "(Model 1202)",
+    "Specs",
+    "Material: ABS plastic panels",
+    "Compartments: Multiple shelves",
+    "Assembly: DIY modula",
+    "r\nUse: Clothes / Storage"
+  ]
+},
+{
+  "id": 35,
+  "name": "Professional Hair Dryer",
+  "price": 210,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "200.3.jpg"
+  ],
+  "specs": [
+    "Energy Max Professional Hair Dryer",
+    "Specs",
+    "Power: 7000 W",
+    "Speed Levels: 2–3",
+    "Heat Levels: 2",
+    "Nozzle: Concentrator head"
+  ]
+},
+{
+  "id": 36,
+  "name": "Adjustable Selfie Stand",
+  "price": 200,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": [
+    "190.jpg"
+  ],
+  "specs": [
+    "Adjustable Phone Tripod / Selfie Stand",
+    "Specs",
+    "Foldable tripod",
+    "Bluetooth remote",
+    "Phone holder included",
+    "Material: Aluminum + plastic"
+  ]
+},
+{
+  "id": 37,
+  "name": "LED Ring Light With Stand",
+  "price": 190,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": [
+    "180.jpg"
+  ],
+  "specs": [
+    "LED Ring Light with Stand",
+    "Specs",
+    "Size: ~10–12 inch",
+    "Lighting Modes: 3",
+    "Brightness: Adjustable",
+    "Power: USB"
+  ]
+},
+{
+  "id": 38,
+  "name": "Bluetooth Soundbar",
+  "price": 860,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+    "850.jpg"
+  ],
+  "specs": [
+    "WK-6397 Bluetooth Soundbar",
+    "Specs",
+    "Bluetooth: 5.0",
+    "Output Power: ~10–20 W",
+    "Inputs: Bluetooth / USB / AUX / TF",
+    "Remote control support"
+  ]
+}
 ]
-
-
-
-
