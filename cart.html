@@ -72,11 +72,13 @@ function increaseQty(productId) {
 
 function decreaseQty(productId) {
   const item = cart.find(p => p.id === productId);
+
   if (item.qty > 1) {
     item.qty -= 1;
   } else {
     cart = cart.filter(p => p.id !== productId);
   }
+
   saveCart();
   renderCart();
 }
@@ -113,7 +115,10 @@ function renderCart() {
 
   cart.forEach(item => {
 
-    const subtotal = item.price * item.qty;
+    const price = item.price || 0;
+    const qty = item.qty || 1;
+
+    const subtotal = price * qty;
     total += subtotal;
 
     const div = document.createElement('div');
@@ -122,15 +127,16 @@ function renderCart() {
     div.innerHTML = `
       <div>
         <h4 class="font-semibold">${item.name}</h4>
-        <p class="text-sm text-gray-500">GH₵${item.price} each</p>
+        <p class="text-sm text-gray-500">GH₵${price} each</p>
         <p class="font-semibold mt-1">Subtotal: GH₵${subtotal}</p>
       </div>
 
       <div class="flex items-center space-x-2">
+
         <button onclick="decreaseQty(${item.id})"
           class="bg-gray-300 px-3 py-1 rounded">-</button>
 
-        <span class="font-semibold">${item.qty}</span>
+        <span class="font-semibold">${qty}</span>
 
         <button onclick="increaseQty(${item.id})"
           class="bg-gray-300 px-3 py-1 rounded">+</button>
@@ -139,6 +145,7 @@ function renderCart() {
           class="text-red-500 ml-4 hover:underline">
           Remove
         </button>
+
       </div>
     `;
 
