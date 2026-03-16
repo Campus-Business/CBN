@@ -1,83 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Checkout - Campus Business Network</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Checkout - Campus Business Network</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100 text-gray-800">
 
-  <!-- Header -->
-  <header class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Campus Business Network</h1>
-      <nav class="space-x-4">
-        <a href="index.html" class="hover:underline">Home</a>
-        <a href="cart.html" class="hover:underline">Cart</a>
-        
-        <a href="contact-us.html" class="hover:underline">Contact Us</a>
-      </nav>
-    </div>
-  </header>
+<!-- HEADER -->
+<header class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-4 fixed top-0 left-0 w-full z-50 shadow-lg">
 
-  <!-- Checkout Section -->
-  <section class="container mx-auto px-4 py-10 max-w-4xl">
+<div class="flex justify-between items-center max-w-7xl mx-auto">
 
-    <h2 class="text-3xl font-bold mb-8 text-center">Checkout</h2>
+<h1 class="text-xl font-bold">CBN Marketplace</h1>
 
-    <!-- Order Summary -->
-    <div class="bg-white p-6 rounded-2xl shadow-md mb-8">
-      <h3 class="text-lg font-semibold mb-4">Order Summary</h3>
-      <ul id="summary-list" class="space-y-2 mb-4"></ul>
-      <p class="font-bold text-lg">Total: ₵<span id="summary-total">0</span></p>
-    </div>
+<div class="flex gap-4">
 
-    <!-- Customer Form -->
-    <form id="checkout-form" class="bg-white p-6 rounded-2xl shadow-md space-y-4">
+<a href="index.html">Home</a>
 
-      <h3 class="text-lg font-semibold mb-4">Customer Information</h3>
+<a href="cart.html" class="relative">
+Cart
+<span id="cart-count"
+class="absolute -top-2 -right-3 bg-red-600 text-xs px-2 py-0.5 rounded-full">0</span>
+</a>
 
-      <input type="text" name="name" placeholder="Full Name"
-        required class="w-full p-2 border rounded">
+<a href="contact.html">Contact</a>
 
-      <input type="tel" name="phone" placeholder="Phone Number"
-        required class="w-full p-2 border rounded">
+</div>
 
-        <input type="text" name="hostel" placeholder="Hostel and room Number"
-        required class="w-full p-2 border rounded">
+</div>
 
-      <textarea name="department" placeholder="Department"
-        required class="w-full p-2 border rounded"></textarea>
+</header>
 
-      <input type="text" name="level" placeholder="Level"
-        required class="w-full p-2 border rounded">
+<!-- Checkout Section -->
+<section class="container mx-auto px-4 py-10 max-w-4xl">
 
-      <button type="submit"
-        class="bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 w-full font-semibold">
-        Place Order
-      </button>
+<h2 class="text-3xl font-bold mb-8 text-center">Checkout</h2>
 
-    </form>
+<!-- Order Summary -->
+<div class="bg-white p-6 rounded-2xl shadow-md mb-8">
 
-  </section>
+<h3 class="text-lg font-semibold mb-4">Order Summary</h3>
 
-  <!-- Payment Info -->
-  <section class="bg-yellow-100 py-6 mt-10">
-    <div class="container mx-auto px-4 text-center">
-      <p class="text-yellow-800 font-semibold">
-        Pay on Delivery Available | Fast Delivery | Easy Returns
-      </p>
-    </div>
-  </section>
+<ul id="summary-list" class="space-y-2 mb-4"></ul>
 
-  <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-4">
-    <div class="container mx-auto text-center">
-      <p>&copy; 2026 Campus Business Network. All rights reserved.</p>
-    </div>
-  </footer>
+<p class="font-bold text-lg">
+Total: GH₵<span id="summary-total">0</span>
+</p>
+
+</div>
+
+<!-- Customer Form -->
+<form id="checkout-form" class="bg-white p-6 rounded-2xl shadow-md space-y-4">
+
+<h3 class="text-lg font-semibold mb-4">Customer Information</h3>
+
+<input type="text"
+name="name"
+placeholder="Full Name"
+required
+class="w-full p-2 border rounded">
+
+<input type="tel"
+name="phone"
+placeholder="Phone Number"
+required
+class="w-full p-2 border rounded">
+
+<input type="text"
+name="hostel"
+placeholder="Hostel and Room Number"
+required
+class="w-full p-2 border rounded">
+
+<textarea
+name="department"
+placeholder="Department"
+required
+class="w-full p-2 border rounded"></textarea>
+
+<input type="text"
+name="level"
+placeholder="Level"
+required
+class="w-full p-2 border rounded">
+
+<button
+type="submit"
+class="bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 w-full font-semibold">
+
+Place Order
+
+</button>
+
+</form>
+
+</section>
+
+<!-- Payment Info -->
+<section class="bg-yellow-100 py-6 mt-10">
+<div class="container mx-auto px-4 text-center">
+<p class="text-yellow-800 font-semibold">
+Pay on Delivery Available | Fast Delivery | Easy Returns
+</p>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-4">
+<div class="container mx-auto text-center">
+<p>&copy; 2026 Campus Business Network. All rights reserved.</p>
+</div>
+</footer>
 
 <script>
 
@@ -94,94 +130,161 @@ const ENTRY = {
   ref: "entry.1391869361"
 };
 
+/* ===========================
+   LOAD CART
+=========================== */
+
 const cart = JSON.parse(localStorage.getItem("cbn-cart")) || [];
+
 const summaryList = document.getElementById("summary-list");
 const summaryTotal = document.getElementById("summary-total");
 
 let total = 0;
 
-function renderSummary() {
-  summaryList.innerHTML = "";
-  total = 0;
 
-  if (cart.length === 0) {
-    summaryList.innerHTML =
-      "<li class='text-gray-500'>Your cart is empty.</li>";
-    document.getElementById("checkout-form").style.display = "none";
-    return;
-  }
+/* ===========================
+   DISPLAY ORDER SUMMARY
+=========================== */
 
-  cart.forEach(item => {
-    const li = document.createElement("li");
-    li.textContent =
-      `${item.name} x${item.qty} = GH₵${item.price * item.qty}`;
-    summaryList.appendChild(li);
-    total += item.price * item.qty;
-  });
+function renderSummary(){
 
-  summaryTotal.textContent = total;
+summaryList.innerHTML = "";
+total = 0;
+
+if(cart.length === 0){
+
+summaryList.innerHTML =
+"<li class='text-gray-500'>Your cart is empty.</li>";
+
+document.getElementById("checkout-form").style.display = "none";
+
+return;
+
+}
+
+cart.forEach(item=>{
+
+const li = document.createElement("li");
+
+li.textContent =
+`${item.name} x${item.qty} = GH₵${item.price * item.qty}`;
+
+summaryList.appendChild(li);
+
+total += item.price * item.qty;
+
+});
+
+summaryTotal.textContent = total;
+
 }
 
 renderSummary();
 
-function generateReferenceID() {
-  return "CBN-" + Math.floor(100000 + Math.random() * 900000);
+
+/* ===========================
+   ORDER REFERENCE GENERATOR
+=========================== */
+
+function generateReferenceID(){
+
+return "CBN-" + Math.floor(100000 + Math.random()*900000);
+
 }
 
+
+/* ===========================
+   SUBMIT ORDER
+=========================== */
+
 document.getElementById("checkout-form")
-.addEventListener("submit", function (e) {
+.addEventListener("submit", function(e){
 
-  e.preventDefault();
+e.preventDefault();
 
-  if (cart.length === 0) {
-    alert("Your cart is empty.");
-    return;
-  }
+if(cart.length === 0){
+alert("Your cart is empty.");
+return;
+}
 
-  const referenceID = generateReferenceID();
+const referenceID = generateReferenceID();
 
-  let orderText = "";
-  let orderTotal = 0;
+let orderText = "";
+let orderTotal = 0;
 
-  cart.forEach(item => {
-    orderText += `${item.name} x${item.qty} = GH₵${item.price * item.qty}\n`;
-    orderTotal += item.price * item.qty;
-  });
+/* Include vendor here (hidden from user but sent to you) */
 
-  const formData = new FormData();
-  formData.append(ENTRY.name, this.name.value.trim());
-  formData.append(ENTRY.phone, this.phone.value.trim());
-  formData.append(ENTRY.hostel, this.hostel.value.trim());
-  formData.append(ENTRY.department, this.department.value.trim());
-  formData.append(ENTRY.level, this.level.value.trim());
-  formData.append(ENTRY.order, orderText);
-  formData.append(ENTRY.total, total);
-  formData.append(ENTRY.ref, referenceID);
+cart.forEach(item=>{
 
-  fetch(FORM_URL, {
-    method: "POST",
-    mode: "no-cors",
-    body: formData
-  });
+orderText +=
+`${item.name} x${item.qty} | Vendor: ${item.vendor} | GH₵${item.price * item.qty}\n`;
 
-  localStorage.removeItem("cbn-cart");
+orderTotal += item.price * item.qty;
 
-  document.body.innerHTML = `
-    <div class="min-h-screen flex items-center justify-center bg-green-100">
-      <div class="bg-white p-8 rounded-xl shadow-lg text-center max-w-md">
-        <h1 class="text-2xl font-bold text-green-600 mb-3">
-          🎉 Thank You for Your Order!, We will contact you soon.
-        </h1>
-        <p class="mb-4">Your order has been received successfully.</p>
-        <p class="font-semibold mb-4">Reference ID: ${referenceID}</p>
-        <a href="index.html"
-          class="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
-          Back to Shop
-        </a>
-      </div>
-    </div>
-  `;
+});
+
+
+/* SEND TO GOOGLE FORM */
+
+const formData = new FormData();
+
+formData.append(ENTRY.name, this.name.value.trim());
+formData.append(ENTRY.phone, this.phone.value.trim());
+formData.append(ENTRY.hostel, this.hostel.value.trim());
+formData.append(ENTRY.department, this.department.value.trim());
+formData.append(ENTRY.level, this.level.value.trim());
+formData.append(ENTRY.order, orderText);
+formData.append(ENTRY.total, orderTotal);
+formData.append(ENTRY.ref, referenceID);
+
+fetch(FORM_URL,{
+method:"POST",
+mode:"no-cors",
+body:formData
+});
+
+
+/* CLEAR CART */
+
+localStorage.removeItem("cbn-cart");
+
+
+/* SUCCESS PAGE */
+
+document.body.innerHTML = `
+
+<div class="min-h-screen flex items-center justify-center bg-green-100">
+
+<div class="bg-white p-8 rounded-xl shadow-lg text-center max-w-md">
+
+<h1 class="text-2xl font-bold text-green-600 mb-3">
+🎉 Thank You for Your Order!
+</h1>
+
+<p class="mb-4">
+Your order has been received successfully. We will contact you soon.
+</p>
+
+<p class="font-semibold mb-4">
+Reference ID: ${referenceID}
+</p>
+
+<a href="index.html"
+class="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
+
+Back to Shop
+
+</a>
+
+</div>
+
+</div>
+
+`;
 
 });
 
 </script>
+
+</body>
+</html>
