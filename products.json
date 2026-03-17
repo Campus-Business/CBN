@@ -5,7 +5,7 @@
     "name": "Oraimo Necklace Headphone",
     "price": 60,
     "category": "Accessories",
-    "images": ["55.jpg"],
+    "images": ["oraimo.webp"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
   },
   {
@@ -20,7 +20,7 @@
   {
     "id": 4,
     "name": "HP wireless Mouse",
-    "price": 32,
+    "price": 35,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["27.jpg"],
@@ -52,6 +52,14 @@
     "category": "Accessories",
     "images": ["23.1.jpg"],
     "specs": ["4GB"]
+  },
+    {
+    "id": 39,
+    "name": "Oraimo Necklace Headphone",
+    "price": 60,
+    "category": "Accessories",
+    "images": ["55.jpg"],
+    "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
   },
   {
     "id": 8,
