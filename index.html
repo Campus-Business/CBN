@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +8,6 @@
 <title>Campus Business Network</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
-
-<!-- PWA -->
-<link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#4f46e5">
-<meta name="apple-mobile-web-app-capable" content="yes">
 
 </head>
 
@@ -44,14 +38,6 @@ class="absolute -top-2 -right-3 bg-red-600 text-xs px-2 py-0.5 rounded-full">0</
 
 </header>
 
-<!-- INSTALL BUTTON -->
-<div class="max-w-7xl mx-auto px-4 mt-4">
-  <button id="installBtn"
-    class="hidden bg-blue-600 text-white px-5 py-3 rounded-xl shadow">
-    Install Campus Business Network
-  </button>
-</div>
-
 <!-- PRODUCT SECTION -->
 <main class="max-w-7xl mx-auto px-4">
 
@@ -76,8 +62,10 @@ class="mb-6 p-3 border rounded-lg">
 <option value="Provisions">Provisions</option>
 <option value="Sneakers">Sneakers</option>
 <option value="Cosmetics">Cosmetics</option>
-<option value="Women`s wear">Women`s wear</option>
+<option value="Women`s wear">Women`wear</option>
 
+  
+  
 </select>
 
 <!-- PRODUCTS -->
@@ -144,184 +132,213 @@ class="absolute -top-2 -right-2 bg-red-600 text-xs px-2 py-0.5 rounded-full">0</
 <script>
 
 /* FETCH PRODUCTS */
-let products = [];
+
+let products = []
 
 async function loadProducts(){
-  const res = await fetch("products.json");
-  products = await res.json();
-  renderProducts(products);
+
+const res = await fetch("products.json")
+
+products = await res.json()
+
+renderProducts(products)
+
 }
 
 /* CART */
-let cart = JSON.parse(localStorage.getItem("cbn-cart")) || [];
+
+let cart = JSON.parse(localStorage.getItem("cbn-cart")) || []
 
 function updateCartCount(){
-  const count = cart.reduce((acc,item)=>acc+item.qty,0);
-  document.getElementById("cart-count").textContent = count;
-  document.getElementById("floating-cart-count").textContent = count;
+
+const count =
+cart.reduce((acc,item)=>acc+item.qty,0)
+
+document.getElementById("cart-count").textContent=count
+document.getElementById("floating-cart-count").textContent=count
+
 }
 
 function addToCart(id){
-  const product = products.find(p=>p.id===id);
-  const item = cart.find(p=>p.id===id);
 
-  if(item){
-    item.qty++;
-  }else{
-    cart.push({
-      id:product.id,
-      name:product.name,
-      price:product.price,
-      vendor:product.vendor,
-      qty:1
-    });
-  }
+const product = products.find(p=>p.id===id)
 
-  localStorage.setItem("cbn-cart", JSON.stringify(cart));
-  updateCartCount();
+const item = cart.find(p=>p.id===id)
+
+if(item){
+
+item.qty++
+
+}else{
+
+cart.push({
+id:product.id,
+name:product.name,
+price:product.price,
+vendor:product.vendor,
+qty:1
+})
+
+}
+
+localStorage.setItem("cbn-cart", JSON.stringify(cart))
+
+updateCartCount()
+
 }
 
 /* IMAGE SLIDER */
-let imageIndex = {};
+
+let imageIndex={}
 
 function nextImage(productId){
-  const product = products.find(p=>p.id===productId);
-  if(!imageIndex[productId]) imageIndex[productId]=0;
-  imageIndex[productId]++;
-  if(imageIndex[productId]>=product.images.length){
-    imageIndex[productId]=0;
-  }
-  document.getElementById("img-"+productId).src =
-  product.images[imageIndex[productId]];
+
+const product = products.find(p=>p.id===productId)
+
+if(!imageIndex[productId]){
+imageIndex[productId]=0
+}
+
+imageIndex[productId]++
+
+if(imageIndex[productId]>=product.images.length){
+imageIndex[productId]=0
+}
+
+document.getElementById("img-"+productId).src=
+product.images[imageIndex[productId]]
+
 }
 
 function prevImage(productId){
-  const product = products.find(p=>p.id===productId);
-  if(!imageIndex[productId]) imageIndex[productId]=0;
-  imageIndex[productId]--;
-  if(imageIndex[productId]<0){
-    imageIndex[productId]=product.images.length-1;
-  }
-  document.getElementById("img-"+productId).src =
-  product.images[imageIndex[productId]];
+
+const product = products.find(p=>p.id===productId)
+
+if(!imageIndex[productId]){
+imageIndex[productId]=0
+}
+
+imageIndex[productId]--
+
+if(imageIndex[productId]<0){
+imageIndex[productId]=product.images.length-1
+}
+
+document.getElementById("img-"+productId).src=
+product.images[imageIndex[productId]]
+
 }
 
 /* PRODUCT MODAL */
+
 function openProduct(product){
-  document.getElementById("productModal").classList.remove("hidden");
-  document.getElementById("modalImage").src=product.images[0];
-  document.getElementById("modalName").innerText=product.name;
-  document.getElementById("modalPrice").innerText="GH₵ "+product.price;
 
-  const specsList=document.getElementById("modalSpecs");
-  specsList.innerHTML="";
+document.getElementById("productModal").classList.remove("hidden")
 
-  product.specs.forEach(spec=>{
-    const li=document.createElement("li");
-    li.innerText=spec;
-    specsList.appendChild(li);
-  });
+document.getElementById("modalImage").src=product.images[0]
+document.getElementById("modalName").innerText=product.name
+document.getElementById("modalPrice").innerText="GH₵ "+product.price
+
+const specsList=document.getElementById("modalSpecs")
+specsList.innerHTML=""
+
+product.specs.forEach(spec=>{
+const li=document.createElement("li")
+li.innerText=spec
+specsList.appendChild(li)
+})
+
 }
 
 function closeModal(){
-  document.getElementById("productModal").classList.add("hidden");
+document.getElementById("productModal").classList.add("hidden")
 }
 
 /* RENDER PRODUCTS */
+
 function renderProducts(list){
-  const container=document.getElementById("product-list");
-  container.innerHTML="";
 
-  list.forEach(product=>{
-    const card=document.createElement("div");
-    card.className="bg-white rounded-xl shadow p-4";
+const container=document.getElementById("product-list")
 
-    card.innerHTML=`
-    <div class="relative w-full h-48 mb-4 overflow-hidden rounded-xl">
+container.innerHTML=""
 
-    <img src="${product.images[0]}"
-    id="img-${product.id}"
-    class="w-full h-full object-contain cursor-pointer"
-    onclick='openProduct(${JSON.stringify(product)})'>
+list.forEach(product=>{
 
-    <button onclick="prevImage(${product.id})"
-    class="absolute left-1 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 rounded">‹</button>
+const card=document.createElement("div")
 
-    <button onclick="nextImage(${product.id})"
-    class="absolute right-1 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 rounded">›</button>
+card.className="bg-white rounded-xl shadow p-4"
 
-    </div>
+card.innerHTML=`
 
-    <h3 class="font-semibold">${product.name}</h3>
-    <p class="text-green-600 font-bold mb-2">GH₵ ${product.price}</p>
+<div class="relative w-full h-48 mb-4 overflow-hidden rounded-xl">
 
-    <button onclick="addToCart(${product.id})"
-    class="bg-blue-600 text-white w-full py-2 rounded hover:bg-blue-700">
-    Add to Cart
-    </button>
-    `;
+<img src="${product.images[0]}"
+id="img-${product.id}"
+class="w-full h-full object-contain cursor-pointer"
+onclick='openProduct(${JSON.stringify(product)})'>
 
-    container.appendChild(card);
-  });
+<button onclick="prevImage(${product.id})"
+class="absolute left-1 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 rounded">‹</button>
+
+<button onclick="nextImage(${product.id})"
+class="absolute right-1 top-1/2 -translate-y-1/2 bg-black/40 text-white px-2 rounded">›</button>
+
+</div>
+
+<h3 class="font-semibold">${product.name}</h3>
+
+<p class="text-green-600 font-bold mb-2">GH₵ ${product.price}</p>
+
+<button onclick="addToCart(${product.id})"
+class="bg-blue-600 text-white w-full py-2 rounded hover:bg-blue-700">
+Add to Cart
+</button>
+
+`
+
+container.appendChild(card)
+
+})
+
 }
 
 /* SEARCH */
+
 document.getElementById("searchInput")
 .addEventListener("input",function(){
-  const value=this.value.toLowerCase();
 
-  const filtered = products.filter(p=>
-    p.name.toLowerCase().includes(value) ||
-    p.specs.join(" ").toLowerCase().includes(value)
-  );
+const value=this.value.toLowerCase()
 
-  renderProducts(filtered);
-});
+const filtered = products.filter(p=>
+p.name.toLowerCase().includes(value) ||
+p.specs.join(" ").toLowerCase().includes(value)
+)
+
+renderProducts(filtered)
+
+})
 
 /* CATEGORY FILTER */
+
 document.getElementById("categoryFilter")
 .addEventListener("change",function(){
-  const cat=this.value;
 
-  if(cat==="all"){
-    renderProducts(products);
-    return;
-  }
+const cat=this.value
 
-  const filtered =
-  products.filter(p=>p.category===cat);
-
-  renderProducts(filtered);
-});
-
-/* LOAD */
-loadProducts();
-updateCartCount();
-
-/* PWA INSTALL */
-let deferredPrompt;
-const installBtn = document.getElementById("installBtn");
-
-window.addEventListener("beforeinstallprompt", (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
-  installBtn.classList.remove("hidden");
-});
-
-installBtn.addEventListener("click", async () => {
-  if (!deferredPrompt) return;
-  deferredPrompt.prompt();
-  await deferredPrompt.userChoice;
-  deferredPrompt = null;
-  installBtn.classList.add("hidden");
-});
-
-/* SERVICE WORKER */
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/service-worker.js");
-  });
+if(cat==="all"){
+renderProducts(products)
+return
 }
+
+const filtered =
+products.filter(p=>p.category===cat)
+
+renderProducts(filtered)
+
+})
+
+loadProducts()
+updateCartCount()
 
 </script>
 
