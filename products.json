@@ -3,7 +3,7 @@
   {
     "id": 2,
     "name": "Oraimo Necklace Headphone",
-    "price": 60,
+    "price": 55,
     "category": "Accessories",
     "images": ["oraimo.webp"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
@@ -11,7 +11,7 @@
   {
     "id": 3,
     "name": "Wireless Pro 6plus",
-    "price": 60,
+    "price": 55,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["55.1.jpg"],
@@ -20,7 +20,7 @@
   {
     "id": 4,
     "name": "HP wireless Mouse",
-    "price": 35,
+    "price": 31,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["27.jpg"],
@@ -29,7 +29,7 @@
   {
     "id": 5,
     "name": "Oraimo Air 12",
-    "price": 50,
+    "price": 45,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["35.jpg"],
@@ -56,7 +56,7 @@
     {
     "id": 39,
     "name": "Oraimo Necklace Headphone",
-    "price": 60,
+    "price": 55,
     "category": "Accessories",
     "images": ["55.jpg"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
@@ -64,7 +64,7 @@
   {
     "id": 8,
     "name": "MEGZY Headphone Type-C",
-    "price": 22,
+    "price": 20,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["17.jpg"],
@@ -73,7 +73,7 @@
   {
     "id": 9,
     "name": "SAMEG Travel Adapter",
-    "price": 28,
+    "price": 25,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["23.jpg"],
@@ -275,7 +275,7 @@
 {
   "id": 20,
   "name": "RGB Wireless Mouse",
-  "price": 50,
+  "price": 45,
   "vendor": "Saiba",
   "category": "Electronics",
   "images": [
@@ -325,7 +325,7 @@
 {
   "id": 22,
   "name": "Dell Wireless Mouse",
-  "price": 32,
+  "price": 28,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": [
@@ -335,7 +335,7 @@
     "Dell Wireless Optical Mouse\nSpecifications",
     "Type: Wireless USB Mouse",
     "DPI: ~1000–1600 DPI",
-    "Buttons: 3 (Left",
+    "Buttons: 3 ",
     "Right",
     "Scroll)",
     "Sensor: Optical",
@@ -466,7 +466,7 @@
 {
   "id": 29,
   "name": "Oraimo AirBuds Pro",
-  "price": 60,
+  "price": 55,
   "vendor": "Saiba",
   "category": "Electronics",
   "images": [
@@ -502,7 +502,7 @@
 {
   "id": 31,
   "name": "120W USB-C Fast Charger",
-  "price": 35,
+  "price": 30,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": [
