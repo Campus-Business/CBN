@@ -15,7 +15,7 @@
   "vendor": "saiba",
   "category": "Accessories",
   "images": [
-    "images/typec.jpeg"
+    "typec.jpeg"
   ],
   "specs": [
     "Number of splice joints: one to four",
@@ -351,12 +351,12 @@
     "32z.jpg"
   ],
   "specs": [
-    "Dell Wireless Optical Mouse\nSpecifications",
+    "Dell Wireless Optical Mouse",
     "Type: Wireless USB Mouse",
     "DPI: ~1000–1600 DPI",
     "Buttons: 3 ",
     "Right",
-    "Scroll)",
+    "Scroll",
     "Sensor: Optical",
     "Compatibility: Windows / Mac / Linux",
     "non-rechageable"
@@ -602,7 +602,7 @@
   "vendor": "saiba",
   "category": "Accessories",
   "images": [
-    "images/ios.jpeg"
+    "ios.jpeg"
   ],
   "specs": [
     "Number of splice joints: one to four",
