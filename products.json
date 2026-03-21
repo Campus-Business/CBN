@@ -8,6 +8,25 @@
     "images": ["oraimo.webp"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
   },
+   {
+  "id": 41,
+  "name": "4 in 1 Charging Cable",
+  "price": 15,
+  "vendor": "saiba",
+  "category": "Accessories",
+  "images": [
+    "images/typec.jpeg"
+  ],
+  "specs": [
+    "Number of splice joints: one to four",
+    "Model: Metal case 4-in-1 fast charge",
+    "Color: 2m (plus length)",
+    "Features: Fast charge",
+    "Maximum output power: 60W",
+    "Material: Zinc alloy"
+  ]
+},
+
   {
     "id": 3,
     "name": "Wireless Pro 6plus",
@@ -574,6 +593,24 @@
     "Compartments: Multiple shelves",
     "Assembly: DIY modula",
     "r\nUse: Clothes / Storage"
+  ]
+},
+{
+  "id": 40,
+  "name": "4 in 1 Charging Cable",
+  "price": 15,
+  "vendor": "saiba",
+  "category": "Accessories",
+  "images": [
+    "images/ios.jpeg"
+  ],
+  "specs": [
+    "Number of splice joints: one to four",
+    "Model: Metal case 4-in-1 fast charge",
+    "Color: 2m (plus length)",
+    "Features: Fast charge",
+    "Maximum output power: 60W",
+    "Material: Zinc alloy"
   ]
 },
 {
