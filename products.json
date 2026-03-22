@@ -1,9 +1,9 @@
 
   [
     {
-  "id": 42,
+  "id": 43,
   "name": "Men’s Luxury Cross Strap Slide Slippers",
-  "price": 180,
+  "price": 160,
   "vendor": "Saiba",
   "category": "Shoes",
   "images": [
@@ -127,8 +127,29 @@
     "category": "Accessories",
     "images": ["200.5.jpg"],
     "specs": ["Portable"]
-  }
-,
+  },
+    
+    {
+  "id": 42,
+  "name": "Men’s Luxury Cross Strap Slide Slippers",
+  "price": 165,
+  "vendor": "Saiba",
+  "category": "Shoes",
+  "images": [
+    "slippers1.jpg",
+    "slippers2.jpg"
+  ],
+  "specs": [
+    "Premium leather-like upper",
+    "Size: 42",
+    "Cross strap slip-on design",
+    "Soft cushioned insole",
+    "Durable anti-slip sole",
+    "Lightweight and comfortable",
+    "Stylish gold logo detail",
+    "Suitable for casual and outdoor wear"
+  ]
+},
   {
   "id": 1,
   "name": "Twin game controller",
