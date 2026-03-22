@@ -29,6 +29,21 @@
     "images": ["oraimo.webp"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
   },
+    {
+  "id": 53,
+  "name": "Beige Chunky Fashion Sneakers",
+  "price": 350,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn2.jpg"],
+  "specs": [
+    "Chunky fashion design",
+    "Soft cushioned sole",
+    "Breathable upper",
+    "Stylish modern look",
+    "Casual wear"
+  ]
+},
    {
   "id": 41,
   "name": "4 in 1 Charging Cable",
@@ -75,6 +90,22 @@
     "images": ["35.jpg"],
     "specs": ["10hr Battery", "Water Resistant", "Wireless"]
   },
+  {
+  "id": 45,
+  "name": "Colorful Street Style Sneakers",
+  "price": 320,
+ "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn10.jpg"],
+  "specs": [
+    "Multi-color design",
+    "Durable rubber outsole",
+    "Comfort padded insole",
+    "Lace-up closure",
+    "Fashion streetwear"
+  ]
+},
+
   {
     "id": 6,
     "name": "Sandisk Drive",
@@ -246,6 +277,22 @@
     "2200W power; ideal for professional‑grade ironing and fabric care."
   ]
 },
+    {
+  "id": 50,
+  "name": "White Blue Sport Trainers",
+  "price": 350,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn5.jpg"],
+  "specs": [
+    "Lightweight sports trainers",
+    "Breathable material",
+    "Shock absorbing sole",
+    "Lace-up closure",
+    "Running and training use"
+  ]
+},
+
 {
   "id": 15,
   "name": "White Humidifier",
@@ -260,6 +307,21 @@
     "Compact ultrasonic cool‑mist humidifier with adjustable output",
     "Enhances indoor air quality in rooms or offices",
     "quiet operation and easy refill."
+  ]
+},
+    {
+  "id": 46,
+  "name": "Grey Blue Running Sneakers",
+  "price": 330,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn9.jpg"],
+  "specs": [
+    "Lightweight running design",
+    "Breathable mesh upper",
+    "Cushioned sole",
+    "Lace-up fastening",
+    "Ideal for sports"
   ]
 },
 {
@@ -296,6 +358,22 @@
     "battery runs up to 6 hrs"
   ]
 },
+    {
+  "id": 49,
+  "name": "Black Gold Premium Sneakers",
+  "price": 280,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn6.jpg"],
+  "specs": [
+    "Premium black and gold design",
+    "High-top style",
+    "Durable outsole",
+    "Comfort padding",
+    "Luxury streetwear"
+  ]
+},
+
 {
   "id": 18,
   "name": "Extension Socket",
@@ -524,6 +602,22 @@
     ""
   ]
 },
+    
+{
+  "id": 47,
+  "name": "Red Casual Sneakers",
+  "price": 320,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn8.jpg"],
+  "specs": [
+    "Bold red color design",
+    "Comfortable sole",
+    "Lace-up closure",
+    "Durable outsole",
+    "Casual everyday wear"
+  ]
+},
 {
   "id": 29,
   "name": "Oraimo AirBuds Pro",
@@ -544,6 +638,22 @@
     "Noise reduction"
   ]
 },
+    {
+  "id": 52,
+  "name": "White Red Basketball Sneakers",
+  "price": 280,
+ "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn3.jpg"],
+  "specs": [
+    "Basketball style high-top",
+    "Shock absorbing sole",
+    "Durable build",
+    "Comfort padding",
+    "Sport performance use"
+  ]
+},
+
 {
   "id": 30,
   "name": "Solar LED Light",
@@ -580,6 +690,23 @@
     
   ]
 },
+    
+{
+  "id": 48,
+  "name": "White Blue High Top Sneakers",
+  "price": 300,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn7.jpg"],
+  "specs": [
+    "High-top ankle support",
+    "Cushioned midsole",
+    "Stylish sporty design",
+    "Durable rubber sole",
+    "Comfort fit"
+  ]
+},
+
 {
   "id": 32,
   "name": "Portable Power Bank",
@@ -637,6 +764,38 @@
     "r\nUse: Clothes / Storage"
   ]
 },
+  
+{
+  "id": 44,
+  "name": "Black Sporty Chunky Sneakers",
+  "price": 350,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn11.jpg"],
+  "specs": [
+    "Chunky sole design",
+    "Breathable upper",
+    "Shock absorbing sole",
+    "Lace-up closure",
+    "Streetwear style"
+  ]
+},
+    {
+  "id": 51,
+  "name": "All Black Classic Sneakers",
+  "price": 280,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn4.jpg"],
+  "specs": [
+    "All-black minimal design",
+    "Durable rubber sole",
+    "Comfortable insole",
+    "Lace-up closure",
+    "Casual and streetwear use"
+  ]
+},
+
 {
   "id": 40,
   "name": "4 in 1 Charging Cable",
@@ -691,6 +850,21 @@
     "Material: Aluminum + plastic"
   ]
 },
+  {
+  "id": 43,
+  "name": "Classic Low Top Black Sneakers",
+  "price": 220,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn12.jpg"],
+  "specs": [
+    "Low-top sneaker design",
+    "Durable rubber sole",
+    "Lace-up closure",
+    "Comfortable fit",
+    "Suitable for everyday wear"
+  ]
+},
 {
   "id": 37,
   "name": "LED Ring Light With Stand",
@@ -726,5 +900,27 @@
     "Inputs: Bluetooth / USB / AUX / TF",
     "Remote control support"
   ]
+};
+  
+{
+  "id": 54,
+  "name": "Black Air Style Sneakers",
+  "price": 230,
+  "vendor": "Gordon",
+  "category": "Sneakers",
+  "images": ["sn1.jpg"],
+  "specs": [
+    "Air-cushion style sole",
+    "Durable rubber outsole",
+    "Comfortable interior",
+    "Lace-up closure",
+    "Everyday use"
+  ]
 }
 ]
+
+
+
+
+
+
