@@ -312,7 +312,7 @@
     "quiet operation and easy refill."
   ]
 },
-    {
+{
   "id": 46,
   "name": "Grey Blue Running Sneakers",
   "price": 330,
@@ -362,7 +362,7 @@
     "battery runs up to 6 hrs"
   ]
 },
-    {
+{
   "id": 49,
   "name": "Black Gold Premium Sneakers",
   "price": 280,
@@ -607,7 +607,6 @@
     ""
   ]
 },
-    
 {
   "id": 47,
   "name": "Red Casual Sneakers",
