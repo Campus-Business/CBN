@@ -1,5 +1,26 @@
 
   [
+    {
+  "id": 42,
+  "name": "Men’s Luxury Cross Strap Slide Slippers",
+  "price": 180,
+  "vendor": "Saiba",
+  "category": "Shoes",
+  "images": [
+    "slippers1.jpg",
+    "slippers2.jpg"
+  ],
+  "specs": [
+    "Premium leather-like upper",
+    "Size: All size",
+    "Cross strap slip-on design",
+    "Soft cushioned insole",
+    "Durable anti-slip sole",
+    "Lightweight and comfortable",
+    "Stylish gold logo detail",
+    "Suitable for casual and outdoor wear"
+  ]
+},
   {
     "id": 2,
     "name": "Oraimo Necklace Headphone",
