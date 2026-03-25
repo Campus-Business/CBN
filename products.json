@@ -78,7 +78,7 @@
    {
   "id": 41,
   "name": "4 in 1 Charging Cable",
-  "price": 15,
+  "price": 20,
   "vendor": "saiba",
   "category": "Accessories",
   "images": [
@@ -97,7 +97,7 @@
   {
     "id": 3,
     "name": "Wireless Pro 6plus",
-    "price": 55,
+    "price": 60,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["55.1.jpg"],
@@ -106,7 +106,7 @@
   {
     "id": 4,
     "name": "HP wireless Mouse",
-    "price": 31,
+    "price": 35,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["27.jpg"],
@@ -115,7 +115,7 @@
   {
     "id": 5,
     "name": "Oraimo Air 12",
-    "price": 45,
+    "price": 50,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["35.jpg"],
@@ -166,7 +166,7 @@
   },
   {
     "id": 8,
-    "name": "MEGZY Headphone Type-C",
+    "name": "MEGZY Headphone Iphone",
     "price": 20,
      "vendor": "Saiba",
     "category": "Accessories",
@@ -560,7 +560,7 @@
 {
   "id": 22,
   "name": "Dell Wireless Mouse",
-  "price": 28,
+  "price": 32,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": [
@@ -575,7 +575,7 @@
     "Scroll",
     "Sensor: Optical",
     "Compatibility: Windows / Mac / Linux",
-    "non-rechageable"
+    "not-rechageable"
   ]
 },
 {
@@ -929,7 +929,7 @@
 {
   "id": 40,
   "name": "4 in 1 Charging Cable",
-  "price": 15,
+  "price": 20,
   "vendor": "saiba",
   "category": "Accessories",
   "images": [
