@@ -927,21 +927,6 @@
     "Everyday use"
   ]
 },
-    {  "id": 55,
-  "name": "Wireless Bluetooth Earbuds (AirPods Style)",
-  "price": 35,
-  "vendor": "Daddy",
-  "category": "Electronics",
-  "images": ["d1.jpeg"],
-  "specs": [
-    "Bluetooth 5.0 connectivity",
-    "Touch control",
-    "Charging case included",
-    "Clear stereo sound",
-    "Portable design"
-  ]
-},
-
 {
   "id": 56,
   "name": "MEGZY Wired Earphones Type-C",
@@ -1085,6 +1070,20 @@
     "Fast charging support",
     "Compact adapter",
     "Safe and stable charging"
+  ]
+},
+    {  "id": 65,
+  "name": "Wireless Bluetooth Earbuds (AirPods Style)",
+  "price": 35,
+  "vendor": "Daddy",
+  "category": "Electronics",
+  "images": ["d1.jpeg"],
+  "specs": [
+    "Bluetooth 5.0 connectivity",
+    "Touch control",
+    "Charging case included",
+    "Clear stereo sound",
+    "Portable design"
   ]
 }
 ]
