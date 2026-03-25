@@ -942,7 +942,6 @@
     "Durable cable"
   ]
 },
-
 {
   "id": 57,
   "name": "Pro 5S Wireless Earbuds",
@@ -958,7 +957,6 @@
     "Lightweight design"
   ]
 },
-
 {
   "id": 58,
   "name": "Wireless Neckband Earphones (25H)",
@@ -975,7 +973,6 @@
     "SD card supported"
   ]
 },
-
 {
   "id": 59,
   "name": "M-004 Wireless Neckband Earphones",
@@ -991,7 +988,6 @@
     "Comfortable neckband"
   ]
 },
-
 {
   "id": 60,
   "name": "MK-3 Wireless Gaming Headset",
@@ -1007,7 +1003,6 @@
     "Built-in battery"
   ]
 },
-
 {
   "id": 61,
   "name": "120W USB-C Charger",
@@ -1024,7 +1019,6 @@
     "Universal compatibility"
   ]
 },
-
 {
   "id": 62,
   "name": "MEGZY Dual Port Fast Charger (UK Plug)",
@@ -1040,7 +1034,6 @@
     "Safe charging system"
   ]
 },
-
 {
   "id": 63,
   "name": "USB-C 50W Power Adapter",
@@ -1056,7 +1049,6 @@
     "Overheat protection"
   ]
 },
-
 {
   "id": 64,
   "name": "45W PD Fast Charger Set",
@@ -1072,7 +1064,7 @@
     "Safe and stable charging"
   ]
 },
-    {  "id": 65,
+{  "id": 65,
   "name": "Wireless Bluetooth Earbuds (AirPods Style)",
   "price": 35,
   "vendor": "Daddy",
