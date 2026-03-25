@@ -926,8 +926,158 @@
     "Lace-up closure",
     "Everyday use"
   ]
+},
+{
+  "id": 56,
+  "name": "MEGZY Wired Earphones Type-C",
+  "price": 20,
+  "vendor": "Daddy",
+  "category": "Accessories",
+  "images": ["d2.jpeg"],
+  "specs": [
+    "Type-C connector",
+    "Built-in microphone",
+    "High fidelity sound",
+    "Comfortable ear fit",
+    "Durable cable"
+  ]
+},
+{
+  "id": 57,
+  "name": "Pro 5S Wireless Earbuds",
+  "price": 35,
+  "vendor": "Daddy",
+  "category": "Electronics",
+  "images": ["d3.jpeg"],
+  "specs": [
+    "Bluetooth connectivity",
+    "Compact charging case",
+    "Noise reduction",
+    "Touch controls",
+    "Lightweight design"
+  ]
+},
+{
+  "id": 58,
+  "name": "Wireless Neckband Earphones (25H)",
+  "price": 50,
+  "vendor": "Daddy",
+  "category": "Electronics",
+  "images": ["d4.jpeg"],
+  "specs": [
+    "Up to 25 hours battery life",
+    "Neckband design",
+    "Bluetooth connection",
+    "Built-in microphone",
+    "Comfort fit",
+    "SD card supported"
+  ]
+},
+{
+  "id": 59,
+  "name": "M-004 Wireless Neckband Earphones",
+  "price": 50,
+  "vendor": "Daddy",
+  "category": "Electronics",
+  "images": ["d5.jpeg"],
+  "specs": [
+    "Bluetooth wireless connection",
+    "Magnetic earbuds",
+    "Long battery life",
+    "Noise reduction",
+    "Comfortable neckband"
+  ]
+},
+{
+  "id": 60,
+  "name": "MK-3 Wireless Gaming Headset",
+  "price": 50,
+  "vendor": "Daddy",
+  "category": "Electronics",
+  "images": ["d6.jpeg"],
+  "specs": [
+    "Up to 72 hours standby",
+    "HiFi sound quality",
+    "Bluetooth connection",
+    "TF card support",
+    "Built-in battery"
+  ]
+},
+{
+  "id": 61,
+  "name": "120W USB-C Charger",
+  "price": 40,
+  "vendor": "Daddy",
+  "category": "Accessories",
+  "images": ["d7.jpeg"],
+  "specs": [
+    "120W fast charging",
+    "USB-C output",
+    "USB TYPE-C Cable",
+    "Over-voltage protection",
+    "Compact design",
+    "Universal compatibility"
+  ]
+},
+{
+  "id": 62,
+  "name": "MEGZY Dual Port Fast Charger (UK Plug)",
+  "price": 30,
+  "vendor": "Daddy",
+  "category": "Accessories",
+  "images": ["d8.jpeg"],
+  "specs": [
+    "Dual USB output",
+    "Fast charging support",
+    "UK plug type",
+    "Compact build",
+    "Safe charging system"
+  ]
+},
+{
+  "id": 63,
+  "name": "USB-C 50W Power Adapter",
+  "price": 30,
+  "vendor": "Daddy",
+  "category": "Accessories",
+  "images": ["d9.jpeg"],
+  "specs": [
+    "50W fast charging",
+    "USB-C output",
+    "Efficient power delivery",
+    "Compact size",
+    "Overheat protection"
+  ]
+},
+{
+  "id": 64,
+  "name": "45W PD Fast Charger Set",
+  "price": 40,
+  "vendor": "Daddy",
+  "category": "Accessories",
+  "images": ["d10.jpeg"],
+  "specs": [
+    "45W power delivery",
+    "USB-C to USB-C cable included",
+    "Fast charging support",
+    "Compact adapter",
+    "Safe and stable charging"
+  ]
+},
+{  "id": 65,
+  "name": "Wireless Bluetooth Earbuds (AirPods Style)",
+  "price": 35,
+  "vendor": "Daddy",
+  "category": "Electronics",
+  "images": ["d1.jpeg"],
+  "specs": [
+    "Bluetooth 5.0 connectivity",
+    "Touch control",
+    "Charging case included",
+    "Clear stereo sound",
+    "Portable design"
+  ]
 }
-    
 ]
 
 
