@@ -1077,7 +1077,23 @@
     "Clear stereo sound",
     "Portable design"
   ]
+},
+    {
+  "id": 66,
+  "name": "Initial Sea Breeze Air freshener Fragrance",
+  "price": 150,
+  "vendor": "KENNETH DADZAWA",
+  "category": "Cosmetics",
+  "images": [
+    "11d.png"
+  ],
+  "specs": [
+    "canned",
+    "jelly like"
+  ]
 }
+
+
 ]
 
 
