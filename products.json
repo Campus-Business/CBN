@@ -103,15 +103,32 @@
     "images": ["55.1.jpg"],
     "specs": ["Wireless","10hr Battery", "Water Resistant"]
   },
-  {
-    "id": 4,
-    "name": "HP wireless Mouse",
-    "price": 35,
-     "vendor": "Saiba",
-    "category": "Accessories",
-    "images": ["27.jpg"],
-    "specs": ["Wireless"]
-  },
+ {
+  "id": 4,
+  "name": "HP RGB Wireless Mouse",
+  "price": 50,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": [
+  "IMG-20260311-WA0000.jpg"
+  ],
+  "specs": [
+    "Connectivity: Dual‑mode",
+    "Bluetooth + 2.4 GHz wireless receiver",
+    "Compatibility: Windows 8/10",
+    "Android 5.0",
+    "iOS 13",
+    "macOS 10.10.",
+    "Design: Sleek silver body with RGB LED light strip",
+    "Features: Rechargeable battery",
+    "ergonomic shape",
+    "smooth optical tracking",
+    "Usage: Ideal for laptops",
+    "tablets",
+    "desktop PCs",
+    "perfect for office or gaming setups."
+  ]
+},
   {
     "id": 5,
     "name": "Oraimo Air 12",
@@ -560,7 +577,7 @@
 {
   "id": 22,
   "name": "Dell Wireless Mouse",
-  "price": 32,
+  "price": 35,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": [
