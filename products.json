@@ -1902,7 +1902,69 @@
       "Lightweight",
       "Durable plastic body"
     ]
-  }
+  },
+  {
+    "id": 102,
+    "name": "MTN Broadband Router",
+    "price": 550,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["13t.jpg"],
+    "specs": [
+      "High-speed broadband",
+      "Strong network signal",
+      "Multiple user support",
+      "Portable design",
+      "Easy setup"
+    ]
+  },
+  
+  {
+    "id": 91,
+    "name": "4G/5G WiFi Router",
+    "price": 550,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["1t.jpg"],
+    "specs": [
+      "4G/5G network support",
+      "High-speed internet access",
+      "Multiple device connection",
+      "Strong signal coverage",
+      "Easy setup"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "MTN WiFi",
+    "price": 320,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["14t.jpg"],
+    "specs": [
+      "Portable WiFi hotspot",
+      "4G connectivity",
+      "Rechargeable battery",
+      "Supports multiple devices",
+      "Compact design"
+    ]
+  },
+  
+  {
+    "id": 121,
+    "name": "MTN WiFi Device",
+    "price": 320,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["15t.jpg"],
+    "specs": [
+      "Portable WiFi hotspot",
+      "4G connectivity",
+      "Rechargeable battery",
+      "Supports multiple devices",
+      "Compact design"
+    ]
+  }  
 
 ]
 
