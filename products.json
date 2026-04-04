@@ -106,7 +106,7 @@
  {
   "id": 4,
   "name": "HP RGB Wireless Mouse",
-  "price": 50,
+  "price": 50.50,
   "vendor": "Saiba",
   "category": "Electronics",
   "images": [
@@ -176,7 +176,7 @@
     {
     "id": 39,
     "name": "Oraimo Necklace Headphone",
-    "price": 55,
+    "price": 55.70,
     "category": "Accessories",
     "images": ["55.jpg"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
@@ -193,7 +193,7 @@
   {
     "id": 9,
     "name": "SAMEG Travel Adapter",
-    "price": 25,
+    "price": 25.90,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["23.jpg"],
@@ -211,7 +211,7 @@
     {
   "id": 57,
   "name": "Pro 5S Wireless Earbuds",
-  "price": 35,
+  "price": 40.90,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d3.jpeg"],
@@ -226,7 +226,7 @@
 {
   "id": 58,
   "name": "Wireless Neckband Earphones (25H)",
-  "price": 50,
+  "price": 50.90,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d4.jpeg"],
@@ -281,7 +281,7 @@
 
  { "id": 59,
   "name": "M-004 Wireless Neckband Earphones",
-  "price": 50,
+  "price": 50.80,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d5.jpeg"],
@@ -314,7 +314,7 @@
   {
   "id": 61,
   "name": "120W USB-C Charger",
-  "price": 40,
+  "price": 40.55,
   "vendor": "Daddy",
   "category": "Accessories",
   "images": ["d7.jpeg"],
@@ -456,7 +456,7 @@
 {
   "id": 17,
   "name": "Morgan Portable Fan",
-  "price": 70,
+  "price": 70.45,
   "vendor": "Saiba",
   "category": "Electronics",
   "images": [
@@ -527,7 +527,7 @@
 {
   "id": 20,
   "name": "RGB Wireless Mouse",
-  "price": 45,
+  "price": 55.99,
   "vendor": "Saiba",
   "category": "Electronics",
   "images": [
@@ -554,7 +554,7 @@
 {
   "id": 21,
   "name": "RGB Speaker",
-  "price": 65,
+  "price": 65.65,
   "vendor": "Saiba",
   "category": "Electronics",
   "images": [
@@ -577,7 +577,7 @@
 {
   "id": 22,
   "name": "Dell Wireless Mouse",
-  "price": 35,
+  "price": 35.25,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": [
@@ -678,8 +678,8 @@
 },
   {
   "id": 60,
-  "name": "MK-3 Wireless Gaming Headset",
-  "price": 50,
+  "name": "MK-3 Wireless Headset",
+  "price": 50.65,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d6.jpeg"],
@@ -714,7 +714,7 @@
   {
   "id": 62,
   "name": "MEGZY Dual Port Fast Charger (UK Plug)",
-  "price": 30,
+  "price": 30.99,
   "vendor": "Daddy",
   "category": "Accessories",
   "images": ["d8.jpeg"],
@@ -817,7 +817,7 @@
 {
   "id": 31,
   "name": "120W USB-C Fast Charger",
-  "price": 30,
+  "price": 30.99,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": [
@@ -855,7 +855,7 @@
 {
   "id": 32,
   "name": "Portable Power Bank",
-  "price": 360,
+  "price": 360.99,
   "vendor": "Saiba",
   "category": "Electronics",
   "images": [
