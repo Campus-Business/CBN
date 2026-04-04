@@ -166,7 +166,7 @@
   {
     "id": 74,
     "name": "USB Data Cable",
-    "price": 110,
+    "price": 25,
     "vendor": "Saiba",
     "category": "Accessories",
     "images": ["39t.jpg"],
@@ -350,7 +350,7 @@
 
 {
   "id": 129,
-  "name": "45W PD Adapter",
+  "name": "45W PD Charger",
   "price": 60,
   "vendor": "Saiba",
   "category": "Accessories",
@@ -412,7 +412,7 @@
 {
   "id": 64,
   "name": "45W PD Fast Charger Set",
-  "price": 40,
+  "price": 50,
   "vendor": "Daddy",
   "category": "Accessories",
   "images": ["d10.jpeg"],
@@ -725,7 +725,7 @@
   {
     "id": 9,
     "name": "SAMEG Travel Adapter",
-    "price": 25.90,
+    "price": 50.90,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["23.jpg"],
@@ -743,7 +743,7 @@
     {
   "id": 57,
   "name": "Pro 5S Wireless Earbuds",
-  "price": 40.90,
+  "price": 50.90,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d3.jpeg"],
@@ -1191,7 +1191,7 @@
 {
   "id": 163,
   "name": "Itel USB Fast Charger",
-  "price": 30.20,
+  "price": 35.20,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["58t.jpg"],
@@ -1743,7 +1743,7 @@
   {
     "id": 73,
     "name": "3-in-1 USB Charging Cable",
-    "price": 110.20,
+    "price": 25.20,
     "vendor": "Saiba",
     "category": "Accessories",
     "images": ["39t.jpg"],
@@ -1788,7 +1788,7 @@
   {
     "id": 147,
     "name": "USB Data Cable",
-    "price": 100,
+    "price": 25.50,
     "vendor": "Saiba",
     "category": "Accessories",
     "images": ["39t.jpg"],
@@ -2256,7 +2256,7 @@
 
 {  "id": 65,
   "name": "Wireless Bluetooth Earbuds (AirPods Style)",
-  "price": 35,
+  "price": 55,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d1.jpeg"],
