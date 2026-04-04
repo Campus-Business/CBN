@@ -3,7 +3,7 @@
     {
   "id": 63,
   "name": "USB-C 50W Power Adapter",
-  "price": 30,
+  "price": 30.45,
   "vendor": "Daddy",
   "category": "Accessories",
   "images": ["d9.jpeg"],
@@ -54,7 +54,7 @@
   {
     "id": 2,
     "name": "Oraimo Necklace Headphone",
-    "price": 55,
+    "price": 55.25,
     "category": "Accessories",
     "images": ["oraimo.webp"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
