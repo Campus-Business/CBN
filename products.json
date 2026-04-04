@@ -4,7 +4,7 @@
 {
   "id": 131,
   "name": "Fast Charger",
-  "price": 35.75,
+  "price": 45.75,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["64t.jpg"],
@@ -36,7 +36,7 @@
 {
   "id": 133,
   "name": "65W USB Charger",
-  "price": 45.50,
+  "price": 50.50,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["66t.jpg"],
@@ -55,7 +55,7 @@
 {
   "id": 138,
   "name": "20W USB Charger",
-  "price": 35.99,
+  "price": 45.99,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["71t.jpg"],
