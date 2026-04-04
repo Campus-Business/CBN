@@ -284,38 +284,7 @@
       "Portable design",
       "Easy setup"
     ]
-  },  {
-  "id": 128,
-  "name": "TOCH T23 Wired Earphones",
-  "price": 20,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["61t.jpg"],
-  "specs": [
-    "Clear stereo sound",
-    "Lightweight design",
-    "Built-in mic",
-    "Comfort fit",
-    "Durable cable"
-  ]
-},
-
-  {
-  "id": 128,
-  "name": "TOCH T23 Wired Earphones",
-  "price": 20,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["61t.jpg"],
-  "specs": [
-    "Clear stereo sound",
-    "Lightweight design",
-    "Built-in mic",
-    "Comfort fit",
-    "Durable cable"
-  ]
-},
-
+  }, 
 {
   "id": 129,
   "name": "45W PD Adapter",
