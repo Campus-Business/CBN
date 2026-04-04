@@ -1,6 +1,276 @@
 
   [
-     {
+ 
+{
+  "id": 131,
+  "name": "Fast Charger Adapter",
+  "price": 35.75,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["64t.jpg"],
+  "specs": [
+    "Fast charging support",
+    "Compact build",
+    "Multi-device compatibility",
+    "Safe charging",
+    "Durable material"
+  ]
+},
+
+{
+  "id": 132,
+  "name": "MEGZY Fast Charger Set",
+  "price": 60,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["65t.jpg"],
+  "specs": [
+    "High-speed charging",
+    "USB-C cable included",
+    "Durable adapter",
+    "Safe charging",
+    "Compact design"
+  ]
+},
+
+{
+  "id": 133,
+  "name": "65W USB Charger",
+  "price": 45.50,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["66t.jpg"],
+  "specs": [
+    "65W fast charging",
+     "2 Type-C output",
+    "Cable included",
+    "4 USB output",
+    "Compact size",
+    "Overheat protection",
+    "Efficient power delivery"
+  ]
+},
+
+
+{
+  "id": 138,
+  "name": "20W USB Charger",
+  "price": 35.99,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["71t.jpg"],
+  "specs": [
+    "20W fast charging",
+    "1 USB output",
+    "1 Type-C output",
+    "Cable included",
+    "Compact size",
+    "Overheat protection",
+    "Efficient power delivery"
+  ]
+},
+
+{
+  "id": 134,
+  "name": "King Larry Charger",
+  "price": 45,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["67t.jpg"],
+  "specs": [
+    "Complete charging kit",
+    "Fast charging",
+    "Durable cables",
+    "Multi-device support",
+    "Compact packaging"
+  ]
+},
+
+{
+  "id": 135,
+  "name": "M63 Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["68t.jpg"],
+  "specs": [
+    "Clear audio output",
+    "Comfortable earbuds",
+    "Durable cable",
+    "Lightweight",
+    "Built-in microphone"
+  ]
+},
+
+{
+  "id": 136,
+  "name": "A01 Stereo Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["69t.jpg"],
+  "specs": [
+    "Stereo sound quality",
+    "Comfortable fit",
+    "Lightweight",
+    "Durable cable",
+    "Universal compatibility"
+  ]
+},
+
+  {
+    "id": 68,
+    "name": "Wireless Earbuds H1 Pro",
+    "price": 160,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["34t.jpg"],
+    "specs": [
+      "Bluetooth connectivity",
+      "Noise reduction",
+      "Charging case included",
+      "Touch control",
+      "Clear sound quality"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "JBL TWS-4 Wireless Earbuds",
+    "price": 80.35,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["35t.jpg"],
+    "specs": [
+      "True wireless stereo",
+      "Compact charging case",
+      "Long battery life",
+      "High bass output",
+      "Fast pairing"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "AirPods Pro 5s",
+    "price": 60.70,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["36t.jpg"],
+    "specs": [
+      "Active noise cancellation",
+      "Wireless charging case",
+      "Touch controls",
+      "Premium sound quality",
+      "Ergonomic design"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "USB Data Cable",
+    "price": 110,
+    "vendor": "Saiba",
+    "category": "Accessories",
+    "images": ["39t.jpg"],
+    "specs": [
+      "Fast data transfer",
+      "Charging support",
+      "Strong cable build",
+      "Universal compatibility",
+      "Portable"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Mini Handheld Fan",
+    "price": 105,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["40t.jpg"],
+    "specs": [
+      "Rechargeable battery",
+      "Compact design",
+      "Quiet operation",
+      "Portable use",
+      "Multiple speed levels"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Rechargeable Clip Fan",
+    "price": 70,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["41t.jpg"],
+    "specs": [
+      "Clip-on design",
+      "Rechargeable battery",
+      "360° rotation",
+      "Strong airflow",
+      "Portable and lightweight"
+    ]
+  },
+  
+  {
+    "id": 122,
+    "name": "Rechargeable Fan",
+    "price": 75,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["42t.jpg"],
+    "specs": [
+      "Clip-on design",
+      "Rechargeable battery",
+      "360° rotation",
+      "Strong airflow",
+      "Portable and lightweight"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "JBL Pure Bass Headphones",
+    "price": 110,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["43t.jpg"],
+    "specs": [
+      "Deep bass sound",
+      "Comfortable ear cushions",
+      "Wired connection",
+      "Foldable design",
+      "Noise isolation"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Portable Mini Fan (Colorful)",
+    "price": 65.80,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["44t.jpg"],
+    "specs": [
+      "Rechargeable battery",
+      "Stylish design",
+      "Strong airflow",
+      "Handheld use",
+      "Quiet operation"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Mini Fan with Handle",
+    "price": 60,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["45t.jpg"],
+    "specs": [
+      "Portable design",
+      "Rechargeable",
+      "Adjustable speed",
+      "Lightweight",
+      "Durable plastic body"
+    ]
+  },
+ 
+   {
     "id": 102,
     "name": "MTN Broadband Router",
     "price": 550,
@@ -14,7 +284,69 @@
       "Portable design",
       "Easy setup"
     ]
-  },
+  },  {
+  "id": 128,
+  "name": "TOCH T23 Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["61t.jpg"],
+  "specs": [
+    "Clear stereo sound",
+    "Lightweight design",
+    "Built-in mic",
+    "Comfort fit",
+    "Durable cable"
+  ]
+},
+
+  {
+  "id": 128,
+  "name": "TOCH T23 Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["61t.jpg"],
+  "specs": [
+    "Clear stereo sound",
+    "Lightweight design",
+    "Built-in mic",
+    "Comfort fit",
+    "Durable cable"
+  ]
+},
+
+{
+  "id": 129,
+  "name": "45W PD Adapter",
+  "price": 60,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["62t.jpg"],
+  "specs": [
+    "45W power delivery",
+    "Fast charging support",
+    "Compact design",
+    "Overheat protection",
+    "USB-C output"
+  ]
+},
+
+{
+  "id": 130,
+  "name": "Classic Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["63t.jpg"],
+  "specs": [
+    "Standard audio quality",
+    "3.5mm jack",
+    "Lightweight",
+    "Comfortable fit",
+    "Durable design"
+  ]
+},
   
   {
     "id": 91,
@@ -31,6 +363,53 @@
       "Easy setup"
     ]
   },
+      {
+  "id": 128,
+  "name": "TOCH T23 Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["61t.jpg"],
+  "specs": [
+    "Clear stereo sound",
+    "Lightweight design",
+    "Built-in mic",
+    "Comfort fit",
+    "Durable cable"
+  ]
+},
+
+{
+  "id": 129,
+  "name": "45W PD Adapter",
+  "price": 60,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["62t.jpg"],
+  "specs": [
+    "45W power delivery",
+    "Fast charging support",
+    "Compact design",
+    "Overheat protection",
+    "USB-C output"
+  ]
+},
+
+{
+  "id": 130,
+  "name": "Classic Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["63t.jpg"],
+  "specs": [
+    "Standard audio quality",
+    "3.5mm jack",
+    "Lightweight",
+    "Comfortable fit",
+    "Durable design"
+  ]
+},
   {
     "id": 103,
     "name": "MTN WiFi",
@@ -733,7 +1112,341 @@
     "Luxury streetwear"
   ]
 },
+{
+    "id": 170,
+    "name": "HP Laptop Power Adapter",
+    "price": 79,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["27t.jpg"],
+    "specs": [
+      "Stable power output",
+      "Overload protection",
+      "Compatible with laptops",
+      "Durable cable",
+      "Energy efficient"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "5G LTE MiFi Router",
+    "price": 369,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["28t.jpg"],
+    "specs": [
+      "4G/5G LTE connectivity",
+      "Portable hotspot",
+      "Rechargeable battery",
+      "Supports multiple users",
+      "High-speed internet"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "4G USB WiFi Modem",
+    "price": 168.9,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["29t.jpg"],
+    "specs": [
+      "Plug and play USB modem",
+      "4G internet support",
+      "Portable design",
+      "Fast connection speed",
+      "Compatible with laptops"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "5G LTE Wireless Router",
+    "price": 368.5,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["30t.jpg"],
+    "specs": [
+      "High-speed LTE internet",
+      "Multiple device connection",
+      "Stable signal",
+      "Compact design",
+      "Easy setup"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "HP Laptop Power Adapter (Type-C)",
+    "price": 68.5,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["31t.jpg"],
+    "specs": [
+      "Slim design",
+      "Type-C",
+      "Efficient power output",
+      "Durable cable",
+      "Safe charging",
+      "Lightweight"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Acer Laptop Charger Adapter (Black)",
+    "price": 65.99,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["32t.jpg"],
+    "specs": [
+      "Stable voltage output",
+      "Overheat protection",
+      "Compatible with laptops",
+      "Durable build",
+      "Long cable"
+    ]
+  },
+{
+  "id": 164,
+  "name": "PD Fast Charger",
+  "price": 38.90,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["57t.jpg"],
+  "specs": [
+    "Power Delivery fast charging",
+    "Compact design",
+    "Over-voltage protection",
+    "Universal compatibility",
+    "Durable build"
+  ]
+},
 
+{
+  "id": 163,
+  "name": "Itel USB Fast Charger",
+  "price": 30.20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["58t.jpg"],
+  "specs": [
+    "6A fast charging",
+    "Dual USB ports",
+    "Compact adapter",
+    "Safe charging system",
+    "Durable casing"
+  ]
+},
+
+{
+  "id": 162,
+  "name": "Stereo Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["59t.jpg"],
+  "specs": [
+    "Stereo sound quality",
+    "3.5mm jack",
+    "Built-in microphone",
+    "Comfortable fit",
+    "Lightweight design"
+  ]
+},
+
+{
+  "id": 161,
+  "name": "AKG Tuned Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["60t.jpg"],
+  "specs": [
+    "High quality audio",
+    "Clear bass output",
+    "Comfort earbuds",
+    "Durable cable",
+    "Noise isolation"
+  ]
+},
+
+{
+  "id": 160,
+  "name": "TOCH T23 Wired Earphones",
+  "price": 21.5,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["61t.jpg"],
+  "specs": [
+    "Clear stereo sound",
+    "Lightweight design",
+    "Built-in mic",
+    "Comfort fit",
+    "Durable cable"
+  ]
+},
+
+{
+  "id": 159,
+  "name": "45W PD Charger",
+  "price": 58.5,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["62t.jpg"],
+  "specs": [
+    "45W power delivery",
+    "Fast charging support",
+    "Compact design",
+    "Overheat protection",
+    "USB-C output"
+  ]
+},
+
+{
+  "id": 158,
+  "name": "Classic Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["63t.jpg"],
+  "specs": [
+    "Standard audio quality",
+    "3.5mm jack",
+    "Lightweight",
+    "Comfortable fit",
+    "Durable design"
+  ]
+},
+
+{
+  "id": 157,
+  "name": "Fast Charger Adapter",
+  "price": 36.75,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["64t.jpg"],
+  "specs": [
+    "Fast charging support",
+    "Compact build",
+    "Multi-device compatibility",
+    "Safe charging",
+    "Durable material"
+  ]
+},
+
+{
+  "id": 156,
+  "name": "MEGZY Fast Charging Adapter Set",
+  "price": 60,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["65t.jpg"],
+  "specs": [
+    "High-speed charging",
+    "USB-C cable included",
+    "Durable adapter",
+    "Safe charging",
+    "Compact design"
+  ]
+},
+
+{
+  "id": 155,
+  "name": "65W USB Charger",
+  "price": 50.5,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["66t.jpg"],
+  "specs": [
+    "65W fast charging",
+     "2 Type-C output",
+    "Cable included",
+    "4 USB output",
+    "Compact size",
+    "Overheat protection",
+    "Efficient power delivery"
+  ]
+},
+
+
+{
+  "id": 154,
+  "name": "20W USB Charger",
+  "price": 40,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["71t.jpg"],
+  "specs": [
+    "20W fast charging",
+    "1 USB output",
+    "1 Type-C output",
+    "Cable included",
+    "Compact size",
+    "Overheat protection",
+    "Efficient power delivery"
+  ]
+},
+
+{
+  "id": 153,
+  "name": "King Larry Charger",
+  "price": 47,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["67t.jpg"],
+  "specs": [
+    "Complete charging kit",
+    "Fast charging",
+    "Durable cables",
+    "Multi-device support",
+    "Compact packaging"
+  ]
+},
+
+{
+  "id": 152,
+  "name": "M63 Wired Earphones",
+  "price": 20.70,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["68t.jpg"],
+  "specs": [
+    "Clear audio output",
+    "Comfortable earbuds",
+    "Durable cable",
+    "Lightweight",
+    "Built-in microphone"
+  ]
+},
+
+{
+  "id": 151,
+  "name": "A01 Stereo Earphones",
+  "price": 22,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["69t.jpg"],
+  "specs": [
+    "Stereo sound quality",
+    "Comfortable fit",
+    "Lightweight",
+    "Durable cable",
+    "Universal compatibility"
+  ]
+},
+
+  {
+    "id": 150,
+    "name": "Wireless Earbuds H1 Pro",
+    "price": 155,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["34t.jpg"],
+    "specs": [
+      "Bluetooth connectivity",
+      "Noise reduction",
+      "Charging case included",
+      "Touch control",
+      "Clear sound quality"
+    ]
+  },
 {
   "id": 18,
   "name": "Extension Socket",
@@ -1073,6 +1786,112 @@
       "Tangle-free"
     ]
   },   
+     {
+    "id": 149,
+    "name": "JBL TWS-4 Wireless Earbuds",
+    "price": 80.35,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["35t.jpg"],
+    "specs": [
+      "True wireless stereo",
+      "Compact charging case",
+      "Long battery life",
+      "High bass output",
+      "Fast pairing"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "AirPods Pro 5",
+    "price": 65,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["36t.jpg"],
+    "specs": [
+      "Active noise cancellation",
+      "Wireless charging case",
+      "Touch controls",
+      "Premium sound quality",
+      "Ergonomic design"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "USB Data Cable",
+    "price": 100,
+    "vendor": "Saiba",
+    "category": "Accessories",
+    "images": ["39t.jpg"],
+    "specs": [
+      "Fast data transfer",
+      "Charging support",
+      "Strong cable build",
+      "Universal compatibility",
+      "Portable"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Mini Handheld Fan",
+    "price": 105.70,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["40t.jpg"],
+    "specs": [
+      "Rechargeable battery",
+      "Compact design",
+      "Quiet operation",
+      "Portable use",
+      "Multiple speed levels"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Rechargeable Clip Fan",
+    "price": 70.80,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["41t.jpg"],
+    "specs": [
+      "Clip-on design",
+      "Rechargeable battery",
+      "360° rotation",
+      "Strong airflow",
+      "Portable and lightweight"
+    ]
+  },
+  
+  {
+    "id": 144,
+    "name": "Rechargeable Fan",
+    "price": 80,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["42t.jpg"],
+    "specs": [
+      "Clip-on design",
+      "Rechargeable battery",
+      "360° rotation",
+      "Strong airflow",
+      "Portable and lightweight"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "JBL Pure Bass Headphones",
+    "price": 115,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["43t.jpg"],
+    "specs": [
+      "Deep bass sound",
+      "Comfortable ear cushions",
+      "Wired connection",
+      "Foldable design",
+      "Noise isolation"
+    ]
+  },
     {
   "id": 52,
   "name": "White Red Basketball Sneakers",
@@ -1647,324 +2466,8 @@
     "Durable cable",
     "Noise isolation"
   ]
-},
+}
 
-{
-  "id": 128,
-  "name": "TOCH T23 Wired Earphones",
-  "price": 20,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["61t.jpg"],
-  "specs": [
-    "Clear stereo sound",
-    "Lightweight design",
-    "Built-in mic",
-    "Comfort fit",
-    "Durable cable"
-  ]
-},
-
-{
-  "id": 129,
-  "name": "45W PD Adapter",
-  "price": 60,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["62t.jpg"],
-  "specs": [
-    "45W power delivery",
-    "Fast charging support",
-    "Compact design",
-    "Overheat protection",
-    "USB-C output"
-  ]
-},
-
-{
-  "id": 130,
-  "name": "Classic Wired Earphones",
-  "price": 20,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["63t.jpg"],
-  "specs": [
-    "Standard audio quality",
-    "3.5mm jack",
-    "Lightweight",
-    "Comfortable fit",
-    "Durable design"
-  ]
-},
-
-{
-  "id": 131,
-  "name": "Fast Charger Adapter",
-  "price": 35.75,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["64t.jpg"],
-  "specs": [
-    "Fast charging support",
-    "Compact build",
-    "Multi-device compatibility",
-    "Safe charging",
-    "Durable material"
-  ]
-},
-
-{
-  "id": 132,
-  "name": "MEGZY Fast Charging Adapter Set",
-  "price": 60,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["65t.jpg"],
-  "specs": [
-    "High-speed charging",
-    "USB-C cable included",
-    "Durable adapter",
-    "Safe charging",
-    "Compact design"
-  ]
-},
-
-{
-  "id": 133,
-  "name": "65W USB Charger",
-  "price": 45.50,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["66t.jpg"],
-  "specs": [
-    "65W fast charging",
-     "2 Type-C output",
-    "Cable included",
-    "4 USB output",
-    "Compact size",
-    "Overheat protection",
-    "Efficient power delivery"
-  ]
-},
-
-
-{
-  "id": 138,
-  "name": "20W USB Charger",
-  "price": 35.99,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["71t.jpg"],
-  "specs": [
-    "20W fast charging",
-    "1 USB output",
-    "1 Type-C output",
-    "Cable included",
-    "Compact size",
-    "Overheat protection",
-    "Efficient power delivery"
-  ]
-},
-
-{
-  "id": 134,
-  "name": "King Larry Charger",
-  "price": 45,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["67t.jpg"],
-  "specs": [
-    "Complete charging kit",
-    "Fast charging",
-    "Durable cables",
-    "Multi-device support",
-    "Compact packaging"
-  ]
-},
-
-{
-  "id": 135,
-  "name": "M63 Wired Earphones",
-  "price": 20,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["68t.jpg"],
-  "specs": [
-    "Clear audio output",
-    "Comfortable earbuds",
-    "Durable cable",
-    "Lightweight",
-    "Built-in microphone"
-  ]
-},
-
-{
-  "id": 136,
-  "name": "A01 Stereo Earphones",
-  "price": 20,
-  "vendor": "Saiba",
-  "category": "Accessories",
-  "images": ["69t.jpg"],
-  "specs": [
-    "Stereo sound quality",
-    "Comfortable fit",
-    "Lightweight",
-    "Durable cable",
-    "Universal compatibility"
-  ]
-},
-
-  {
-    "id": 68,
-    "name": "Wireless Earbuds H1 Pro",
-    "price": 160,
-    "vendor": "Saiba",
-    "category": "Electronics",
-    "images": ["34t.jpg"],
-    "specs": [
-      "Bluetooth connectivity",
-      "Noise reduction",
-      "Charging case included",
-      "Touch control",
-      "Clear sound quality"
-    ]
-  },
-  {
-    "id": 69,
-    "name": "JBL TWS-4 Wireless Earbuds",
-    "price": 80.35,
-    "vendor": "Saiba",
-    "category": "Electronics",
-    "images": ["35t.jpg"],
-    "specs": [
-      "True wireless stereo",
-      "Compact charging case",
-      "Long battery life",
-      "High bass output",
-      "Fast pairing"
-    ]
-  },
-  {
-    "id": 70,
-    "name": "AirPods Pro 5",
-    "price": 60.70,
-    "vendor": "Saiba",
-    "category": "Electronics",
-    "images": ["36t.jpg"],
-    "specs": [
-      "Active noise cancellation",
-      "Wireless charging case",
-      "Touch controls",
-      "Premium sound quality",
-      "Ergonomic design"
-    ]
-  },
-  {
-    "id": 74,
-    "name": "USB Data Cable",
-    "price": 110,
-    "vendor": "Saiba",
-    "category": "Accessories",
-    "images": ["39t.jpg"],
-    "specs": [
-      "Fast data transfer",
-      "Charging support",
-      "Strong cable build",
-      "Universal compatibility",
-      "Portable"
-    ]
-  },
-  {
-    "id": 75,
-    "name": "Mini Handheld Fan",
-    "price": 105,
-    "vendor": "Saiba",
-    "category": "Electronics",
-    "images": ["40t.jpg"],
-    "specs": [
-      "Rechargeable battery",
-      "Compact design",
-      "Quiet operation",
-      "Portable use",
-      "Multiple speed levels"
-    ]
-  },
-  {
-    "id": 76,
-    "name": "Rechargeable Clip Fan",
-    "price": 70,
-    "vendor": "Saiba",
-    "category": "Electronics",
-    "images": ["41t.jpg"],
-    "specs": [
-      "Clip-on design",
-      "Rechargeable battery",
-      "360° rotation",
-      "Strong airflow",
-      "Portable and lightweight"
-    ]
-  },
-  
-  {
-    "id": 122,
-    "name": "Rechargeable Fan",
-    "price": 75,
-    "vendor": "Saiba",
-    "category": "Electronics",
-    "images": ["42t.jpg"],
-    "specs": [
-      "Clip-on design",
-      "Rechargeable battery",
-      "360° rotation",
-      "Strong airflow",
-      "Portable and lightweight"
-    ]
-  },
-  {
-    "id": 77,
-    "name": "JBL Pure Bass Headphones",
-    "price": 110,
-    "vendor": "Saiba",
-    "category": "Electronics",
-    "images": ["43t.jpg"],
-    "specs": [
-      "Deep bass sound",
-      "Comfortable ear cushions",
-      "Wired connection",
-      "Foldable design",
-      "Noise isolation"
-    ]
-  },
-  {
-    "id": 78,
-    "name": "Portable Mini Fan (Colorful)",
-    "price": 65.80,
-    "vendor": "Saiba",
-    "category": "Electronics",
-    "images": ["44t.jpg"],
-    "specs": [
-      "Rechargeable battery",
-      "Stylish design",
-      "Strong airflow",
-      "Handheld use",
-      "Quiet operation"
-    ]
-  },
-  {
-    "id": 79,
-    "name": "Mini Fan with Handle",
-    "price": 60,
-    "vendor": "Saiba",
-    "category": "Electronics",
-    "images": ["45t.jpg"],
-    "specs": [
-      "Portable design",
-      "Rechargeable",
-      "Adjustable speed",
-      "Lightweight",
-      "Durable plastic body"
-    ]
-  }
 
 
 ]
