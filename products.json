@@ -1108,8 +1108,801 @@
     "canned",
     "jelly like"
   ]
-}
+},
+  {
+    "id": 114,
+    "name": "HP Laptop Power Adapter",
+    "price": 70,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["27t.jpg"],
+    "specs": [
+      "Stable power output",
+      "Overload protection",
+      "Compatible with laptops",
+      "Durable cable",
+      "Energy efficient"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "5G LTE MiFi Router",
+    "price": 370,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["28t.jpg"],
+    "specs": [
+      "4G/5G LTE connectivity",
+      "Portable hotspot",
+      "Rechargeable battery",
+      "Supports multiple users",
+      "High-speed internet"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "4G USB WiFi Modem",
+    "price": 170,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["29t.jpg"],
+    "specs": [
+      "Plug and play USB modem",
+      "4G internet support",
+      "Portable design",
+      "Fast connection speed",
+      "Compatible with laptops"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "5G LTE Wireless Router",
+    "price": 370,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["30t.jpg"],
+    "specs": [
+      "High-speed LTE internet",
+      "Multiple device connection",
+      "Stable signal",
+      "Compact design",
+      "Easy setup"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "HP Laptop Power Adapter (Type-C)",
+    "price": 70,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["31t.jpg"],
+    "specs": [
+      "Slim design",
+      "Type-C",
+      "Efficient power output",
+      "Durable cable",
+      "Safe charging",
+      "Lightweight"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Acer Laptop Charger Adapter (Black)",
+    "price": 70,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["32t.jpg"],
+    "specs": [
+      "Stable voltage output",
+      "Overheat protection",
+      "Compatible with laptops",
+      "Durable build",
+      "Long cable"
+    ]
+  },
+{
+  "id": 124,
+  "name": "PD Fast Charging Adapter",
+  "price": 35.90,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["57t.jpg"],
+  "specs": [
+    "Power Delivery fast charging",
+    "Compact design",
+    "Over-voltage protection",
+    "Universal compatibility",
+    "Durable build"
+  ]
+},
 
+{
+  "id": 125,
+  "name": "Itel USB Fast Charger",
+  "price": 30.20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["58t.jpg"],
+  "specs": [
+    "6A fast charging",
+    "Dual USB ports",
+    "Compact adapter",
+    "Safe charging system",
+    "Durable casing"
+  ]
+},
+
+{
+  "id": 126,
+  "name": "Stereo Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["59t.jpg"],
+  "specs": [
+    "Stereo sound quality",
+    "3.5mm jack",
+    "Built-in microphone",
+    "Comfortable fit",
+    "Lightweight design"
+  ]
+},
+
+{
+  "id": 127,
+  "name": "AKG Tuned Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["60t.jpg"],
+  "specs": [
+    "High quality audio",
+    "Clear bass output",
+    "Comfort earbuds",
+    "Durable cable",
+    "Noise isolation"
+  ]
+},
+
+{
+  "id": 128,
+  "name": "TOCH T23 Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["61t.jpg"],
+  "specs": [
+    "Clear stereo sound",
+    "Lightweight design",
+    "Built-in mic",
+    "Comfort fit",
+    "Durable cable"
+  ]
+},
+
+{
+  "id": 129,
+  "name": "45W PD Adapter",
+  "price": 60,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["62t.jpg"],
+  "specs": [
+    "45W power delivery",
+    "Fast charging support",
+    "Compact design",
+    "Overheat protection",
+    "USB-C output"
+  ]
+},
+
+{
+  "id": 130,
+  "name": "Classic Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["63t.jpg"],
+  "specs": [
+    "Standard audio quality",
+    "3.5mm jack",
+    "Lightweight",
+    "Comfortable fit",
+    "Durable design"
+  ]
+},
+
+{
+  "id": 131,
+  "name": "Fast Charger Adapter",
+  "price": 35.75,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["64t.jpg"],
+  "specs": [
+    "Fast charging support",
+    "Compact build",
+    "Multi-device compatibility",
+    "Safe charging",
+    "Durable material"
+  ]
+},
+
+{
+  "id": 132,
+  "name": "MEGZY Fast Charging Adapter Set",
+  "price": 60,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["65t.jpg"],
+  "specs": [
+    "High-speed charging",
+    "USB-C cable included",
+    "Durable adapter",
+    "Safe charging",
+    "Compact design"
+  ]
+},
+
+{
+  "id": 133,
+  "name": "65W USB Charger",
+  "price": 45.50,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["66t.jpg"],
+  "specs": [
+    "65W fast charging",
+     "2 Type-C output",
+    "Cable included",
+    "4 USB output",
+    "Compact size",
+    "Overheat protection",
+    "Efficient power delivery"
+  ]
+},
+
+
+{
+  "id": 138,
+  "name": "20W USB Charger",
+  "price": 35.99,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["71t.jpg"],
+  "specs": [
+    "20W fast charging",
+    "1 USB output",
+    "1 Type-C output",
+    "Cable included",
+    "Compact size",
+    "Overheat protection",
+    "Efficient power delivery"
+  ]
+},
+
+{
+  "id": 134,
+  "name": "King Larry Charger",
+  "price": 45,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["67t.jpg"],
+  "specs": [
+    "Complete charging kit",
+    "Fast charging",
+    "Durable cables",
+    "Multi-device support",
+    "Compact packaging"
+  ]
+},
+
+{
+  "id": 135,
+  "name": "M63 Wired Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["68t.jpg"],
+  "specs": [
+    "Clear audio output",
+    "Comfortable earbuds",
+    "Durable cable",
+    "Lightweight",
+    "Built-in microphone"
+  ]
+},
+
+{
+  "id": 136,
+  "name": "A01 Stereo Earphones",
+  "price": 20,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["69t.jpg"],
+  "specs": [
+    "Stereo sound quality",
+    "Comfortable fit",
+    "Lightweight",
+    "Durable cable",
+    "Universal compatibility"
+  ]
+},
+
+{
+  "id": 137,
+  "name": "LED RGB Ring Light",
+  "price": 90,
+  "vendor": "Saiba",
+  "category": "Accessories",
+  "images": ["70t.jpg"],
+  "specs": [
+    "RGB lighting modes",
+    "Adjustable brightness",
+    "USB powered",
+    "Portable design",
+    "Perfect for content creation"
+  ]
+},
+
+{
+  "id": 139,
+  "name": "Portable Handheld Fan",
+  "price": 70.25,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": ["72t.jpg"],
+  "specs": [
+    "Rechargeable battery",
+    "3 speed levels",
+    "Compact design",
+    "USB charging",
+    "Quiet operation"
+  ]
+},
+{
+  "id": 140,
+  "name": "Portable Handheld Fan (Cartoon Design)",
+  "price": 90,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": ["73t.jpg"],
+  "specs": [
+    "Cute cartoon design",
+    "Rechargeable battery",
+    "Lightweight and portable",
+    "USB charging",
+    "Quiet operation"
+  ]
+},
+
+{
+  "id": 141,
+  "name": "Wireless Bluetooth Earbuds (TWS)",
+  "price": 80.70,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": ["74t.jpg"],
+  "specs": [
+    "True wireless stereo",
+    "Bluetooth connectivity",
+    "Charging case included",
+    "Clear sound quality",
+    "Compact design"
+  ]
+},
+
+{
+  "id": 142,
+  "name": "Desktop Mini Fan",
+  "price": 210,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": ["75t.jpg"],
+  "specs": [
+    "Desktop design",
+    "Strong airflow",
+    "Quiet operation",
+    "Energy efficient",
+    "Durable build"
+  ]
+},
+{
+  "id": 143,
+  "name": "Mini Cooling Fan (LED Display)",
+  "price": 110,
+  "vendor": "Saiba",
+  "category": "Electronics",
+  "images": ["76t.jpg"],
+  "specs": [
+    "Rechargeable battery",
+    "LED digital display",
+    "Multiple speed levels",
+    "Portable handheld design",
+    "USB charging support"
+  ]
+},
+  {
+    "id": 67,
+    "name": "Standing Rechargeable Fan",
+    "price": 210.20,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["33t.jpg"],
+    "specs": [
+      "180° adjustable rotation",
+      "Rechargeable battery",
+      "Strong wind output",
+      "Stable base stand",
+      "Energy saving design"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Wireless Earbuds H1 Pro",
+    "price": 160,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["34t.jpg"],
+    "specs": [
+      "Bluetooth connectivity",
+      "Noise reduction",
+      "Charging case included",
+      "Touch control",
+      "Clear sound quality"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "JBL TWS-4 Wireless Earbuds",
+    "price": 80.35,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["35t.jpg"],
+    "specs": [
+      "True wireless stereo",
+      "Compact charging case",
+      "Long battery life",
+      "High bass output",
+      "Fast pairing"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "AirPods Pro 5",
+    "price": 60.70,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["36t.jpg"],
+    "specs": [
+      "Active noise cancellation",
+      "Wireless charging case",
+      "Touch controls",
+      "Premium sound quality",
+      "Ergonomic design"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Electric Dry Iron",
+    "price": 140,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["37t.jpg"],
+    "specs": [
+      "Non-stick soleplate",
+      "Temperature control",
+      "Lightweight design",
+      "Fast heating",
+      "Durable body"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Casio Scientific Calculator fx-991ES Plus",
+    "price": 90,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["38t.jpg"],
+    "specs": [
+      "Natural textbook display",
+      "417 functions",
+      "Solar powered",
+      "High precision calculations",
+      "Durable buttons"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "3-in-1 USB Charging Cable",
+    "price": 110.20,
+    "vendor": "Saiba",
+    "category": "Accessories",
+    "images": ["39t.jpg"],
+    "specs": [
+      "Multi-device compatibility",
+      "Fast charging support",
+      "Durable cable material",
+      "Compact design",
+      "Tangle-free"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "USB Data Cable",
+    "price": 110,
+    "vendor": "Saiba",
+    "category": "Accessories",
+    "images": ["40t.jpg"],
+    "specs": [
+      "Fast data transfer",
+      "Charging support",
+      "Strong cable build",
+      "Universal compatibility",
+      "Portable"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Mini Handheld Fan",
+    "price": 105,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["41t.jpg"],
+    "specs": [
+      "Rechargeable battery",
+      "Compact design",
+      "Quiet operation",
+      "Portable use",
+      "Multiple speed levels"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Rechargeable Clip Fan",
+    "price": 70,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["42t.jpg"],
+    "specs": [
+      "Clip-on design",
+      "Rechargeable battery",
+      "360° rotation",
+      "Strong airflow",
+      "Portable and lightweight"
+    ]
+  },
+  
+  {
+    "id": 122,
+    "name": "Rechargeable Fan",
+    "price": 75,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["43t.jpg"],
+    "specs": [
+      "Clip-on design",
+      "Rechargeable battery",
+      "360° rotation",
+      "Strong airflow",
+      "Portable and lightweight"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "JBL Pure Bass Headphones",
+    "price": 110,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["44t.jpg"],
+    "specs": [
+      "Deep bass sound",
+      "Comfortable ear cushions",
+      "Wired connection",
+      "Foldable design",
+      "Noise isolation"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Portable Mini Fan (Colorful)",
+    "price": 65.80,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["45t.jpg"],
+    "specs": [
+      "Rechargeable battery",
+      "Stylish design",
+      "Strong airflow",
+      "Handheld use",
+      "Quiet operation"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Mini Fan with Handle",
+    "price": 60,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["46t.jpg"],
+    "specs": [
+      "Portable design",
+      "Rechargeable",
+      "Adjustable speed",
+      "Lightweight",
+      "Durable plastic body"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Wireless Headphones",
+    "price": 40.90,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["47t.jpg"],
+    "specs": [
+      "Bluetooth connectivity",
+      "Comfortable fit",
+      "Long battery life",
+      "Clear stereo sound",
+      "Adjustable headband"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Wall Charger Adapter",
+    "price": 35.70,
+    "vendor": "Saiba",
+    "category": "Accessories",
+    "images": ["48t.jpg"],
+    "specs": [
+      "Fast charging",
+      "Compact design",
+      "Durable build",
+      "Universal compatibility",
+      "Safe charging protection"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Wireless Headphones PH7",
+    "price": 40.80,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["49t.jpg"],
+    "specs": [
+      "Bluetooth connection",
+      "Deep bass sound",
+      "Comfortable ear pads",
+      "Long battery life",
+      "Foldable design"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Smart Shooting Gimbal",
+    "price": 360,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["50t.jpg"],
+    "specs": [
+      "3-axis stabilization",
+      "AI tracking",
+      "Rechargeable battery",
+      "Smooth video recording",
+      "Portable design"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Protective Earbuds Case",
+    "price": 25,
+    "vendor": "Saiba",
+    "category": "Accessories",
+    "images": ["51t.jpg"],
+    "specs": [
+      "Shockproof design",
+      "Compact size",
+      "Durable material",
+      "Portable hook",
+      "Easy access"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "W80 Magnet Fill in Light",
+    "price": 140,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["52t.jpg"],
+    "specs": [
+      "Fast charging",
+      "LED indicator",
+      "Infinite Dimming",
+      "Built in Battery",
+      "Slim design",
+      "Compatible with smartphones and PC",
+      "Overcharge protection"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Neckband Earphones",
+    "price": 60.55,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["53t.jpg"],
+    "specs": [
+      "Bluetooth connectivity",
+      "Flexible neckband",
+      "Long battery life",
+      "Clear sound",
+      "Lightweight design"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Wireless Mouse",
+    "price": 70,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["54t.jpg"],
+    "specs": [
+      "2.4GHz wireless connection",
+      "Ergonomic design",
+      "Silent clicks",
+      "Rechargeable",
+      "USB receiver included",
+      "Energy efficient"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "120W Fast Charger",
+    "price": 55,
+    "vendor": "Saiba",
+    "category": "Accessories",
+    "images": ["55t.jpg"],
+    "specs": [
+      "Ultra-fast charging",
+      "Compact design",
+      "Heat protection",
+      "Universal compatibility",
+      "Durable build"
+    ]
+  },
+  {
+    "id": 89,
+     "name": "Protective Earbuds Case",
+    "price": 25,
+    "vendor": "Saiba",
+    "category": "Accessories",
+    "images": ["56t.jpg"],
+    "specs": [
+      "Shockproof design",
+      "Compact size",
+      "Durable material",
+      "Portable hook",
+      "Easy access"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Neckband Mini Fan",
+    "price": 160,
+    "vendor": "Saiba",
+    "category": "Electronics",
+    "images": ["57t.jpg"],
+    "specs": [
+      "Long battery life",
+      "Comfortable fit",
+      "Portable design",
+      "Rechargeable",
+      "Adjustable speed",
+      "Lightweight",
+      "Durable plastic body"
+    ]
+  }
 
 ]
 
