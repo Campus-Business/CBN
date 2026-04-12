@@ -4,7 +4,7 @@
 {
   "id": 131,
   "name": "Fast Charger",
-  "price": 45,
+  "price": 45.75,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["64t.jpg"],
@@ -20,7 +20,7 @@
 {
   "id": 132,
   "name": "MEGZY Fast Charger Set",
-  "price": 55,
+  "price": 60,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["65t.jpg"],
@@ -36,7 +36,7 @@
 {
   "id": 133,
   "name": "65W USB Charger",
-  "price": 50,
+  "price": 50.50,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["66t.jpg"],
@@ -55,7 +55,7 @@
 {
   "id": 138,
   "name": "20W USB Charger",
-  "price": 45,
+  "price": 45.99,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["71t.jpg"],
@@ -136,7 +136,7 @@
   {
     "id": 69,
     "name": "JBL TWS-4 Wireless Earbuds",
-    "price": 80,
+    "price": 80.35,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["35t.jpg"],
@@ -151,7 +151,7 @@
   {
     "id": 70,
     "name": "AirPods Pro 5s",
-    "price": 60,
+    "price": 60.70,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["36t.jpg"],
@@ -242,7 +242,7 @@
   {
     "id": 78,
     "name": "Portable Mini Fan (Colorful)",
-    "price": 65,
+    "price": 65.80,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["44t.jpg"],
@@ -287,8 +287,8 @@
   }, 
 {
   "id": 129,
-  "name": "45W PD Charger Set",
-  "price": 50,
+  "name": "45W PD Adapter",
+  "price": 60,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["62t.jpg"],
@@ -351,7 +351,7 @@
 {
   "id": 129,
   "name": "45W PD Charger",
-  "price": 50,
+  "price": 60,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["62t.jpg"],
@@ -397,7 +397,7 @@
     {
   "id": 63,
   "name": "USB-C 50W Power Adapter",
-  "price": 30,
+  "price": 30.45,
   "vendor": "Daddy",
   "category": "Accessories",
   "images": ["d9.jpeg"],
@@ -412,7 +412,7 @@
 {
   "id": 64,
   "name": "45W PD Fast Charger Set",
-  "price": 40,
+  "price": 50,
   "vendor": "Daddy",
   "category": "Accessories",
   "images": ["d10.jpeg"],
@@ -427,7 +427,7 @@
   {
     "id": 80,
     "name": "Wireless Headphones",
-    "price": 40,
+    "price": 40.90,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["46t.jpg"],
@@ -441,8 +441,8 @@
   },
   {
     "id": 81,
-    "name": "Wall Charger",
-    "price": 35,
+    "name": "Wall Charger Adapter",
+    "price": 35.70,
     "vendor": "Saiba",
     "category": "Accessories",
     "images": ["47t.jpg"],
@@ -478,7 +478,7 @@
   {
     "id": 2,
     "name": "Oraimo Necklace Headphone",
-    "price": 50,
+    "price": 55.25,
     "category": "Accessories",
     "images": ["oraimo.webp"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
@@ -629,7 +629,7 @@
   {
     "id": 3,
     "name": "Wireless Pro 6plus",
-    "price": 55,
+    "price": 60,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["55.1.jpg"],
@@ -708,7 +708,7 @@
     {
     "id": 39,
     "name": "Oraimo Necklace Headphone",
-    "price": 55,
+    "price": 55.70,
     "category": "Accessories",
     "images": ["55.jpg"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
@@ -725,7 +725,7 @@
   {
     "id": 9,
     "name": "SAMEG Travel Adapter",
-    "price": 45,
+    "price": 50.90,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["23.jpg"],
@@ -743,7 +743,7 @@
     {
   "id": 57,
   "name": "Pro 5S Wireless Earbuds",
-  "price": 50,
+  "price": 50.90,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d3.jpeg"],
@@ -758,7 +758,7 @@
 {
   "id": 58,
   "name": "Wireless Neckband Earphones (25H)",
-  "price": 50,
+  "price": 50.90,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d4.jpeg"],
@@ -813,7 +813,7 @@
 
  { "id": 59,
   "name": "M-004 Wireless Neckband Earphones",
-  "price": 50,
+  "price": 50.80,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d5.jpeg"],
@@ -846,7 +846,7 @@
   {
   "id": 61,
   "name": "120W USB-C Charger",
-  "price": 45,
+  "price": 40.55,
   "vendor": "Daddy",
   "category": "Accessories",
   "images": ["d7.jpeg"],
@@ -885,7 +885,7 @@
    {
     "id": 88,
     "name": "120W Fast Charger",
-    "price": 50,
+    "price": 55,
     "vendor": "Saiba",
     "category": "Accessories",
     "images": ["54t.jpg"],
@@ -1084,7 +1084,7 @@
 {
     "id": 170,
     "name": "HP Laptop Power Adapter",
-    "price": 65,
+    "price": 79,
     "vendor": "Thomas",
     "category": "Electronics",
     "images": ["27t.jpg"],
@@ -1175,7 +1175,7 @@
 {
   "id": 164,
   "name": "PD Fast Charger",
-  "price": 40,
+  "price": 38.90,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["57t.jpg"],
@@ -1255,7 +1255,7 @@
 {
   "id": 159,
   "name": "45W PD Charger",
-  "price": 55,
+  "price": 58.5,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["62t.jpg"],
@@ -1303,7 +1303,7 @@
 {
   "id": 156,
   "name": "MEGZY Fast Charging Adapter Set",
-  "price": 55,
+  "price": 60,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["65t.jpg"],
@@ -1319,7 +1319,7 @@
 {
   "id": 155,
   "name": "65W USB Charger",
-  "price": 50,
+  "price": 50.5,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["66t.jpg"],
@@ -1372,7 +1372,7 @@
 {
   "id": 152,
   "name": "M63 Wired Earphones",
-  "price": 20,
+  "price": 20.70,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["68t.jpg"],
@@ -1404,7 +1404,7 @@
   {
     "id": 150,
     "name": "Wireless Earbuds H1 Pro",
-    "price": 150,
+    "price": 155,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["34t.jpg"],
@@ -1506,7 +1506,7 @@
 {
   "id": 22,
   "name": "Dell Wireless Mouse",
-  "price": 35,
+  "price": 35.25,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": [
@@ -1608,7 +1608,7 @@
   {
   "id": 60,
   "name": "MK-3 Wireless Headset",
-  "price": 50,
+  "price": 50.65,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d6.jpeg"],
@@ -1643,7 +1643,7 @@
   {
   "id": 62,
   "name": "MEGZY Dual Port Fast Charger (UK Plug)",
-  "price": 35,
+  "price": 30.99,
   "vendor": "Daddy",
   "category": "Accessories",
   "images": ["d8.jpeg"],
@@ -1693,7 +1693,7 @@
 {
   "id": 29,
   "name": "Oraimo AirBuds Pro",
-  "price": 50,
+  "price": 55,
   "vendor": "Saiba",
   "category": "Electronics",
   "images": [
@@ -1758,7 +1758,7 @@
      {
     "id": 149,
     "name": "JBL TWS-4 Wireless Earbuds",
-    "price": 80,
+    "price": 80.35,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["35t.jpg"],
@@ -1773,7 +1773,7 @@
   {
     "id": 148,
     "name": "AirPods Pro 5",
-    "price": 50,
+    "price": 65,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["36t.jpg"],
@@ -1896,8 +1896,8 @@
 },
 {
   "id": 31,
-  "name": "120W USB-C Adapter",
-  "price": 30,
+  "name": "120W USB-C Fast Charger",
+  "price": 30.99,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": [
@@ -2112,7 +2112,7 @@
   {
     "id": 86,
     "name": "Neckband Earphones",
-    "price": 55,
+    "price": 60.55,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["52t.jpg"],
@@ -2177,7 +2177,7 @@
   {
     "id": 82,
     "name": "Wireless Headphones PH7",
-    "price": 40,
+    "price": 40.80,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["48t.jpg"],
@@ -2256,7 +2256,7 @@
 
 {  "id": 65,
   "name": "Wireless Bluetooth Earbuds (AirPods Style)",
-  "price": 45,
+  "price": 55,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d1.jpeg"],
@@ -2285,7 +2285,7 @@
   {
     "id": 114,
     "name": "HP Laptop Power Adapter",
-    "price": 65,
+    "price": 70,
     "vendor": "Thomas",
     "category": "Electronics",
     "images": ["27t.jpg"],
@@ -2376,7 +2376,7 @@
 {
   "id": 124,
   "name": "PD Fast Charging Adapter",
-  "price": 35,
+  "price": 35.90,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["57t.jpg"],
@@ -2392,7 +2392,7 @@
 {
   "id": 125,
   "name": "Itel USB Fast Charger",
-  "price": 30,
+  "price": 30.20,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["58t.jpg"],
@@ -2436,13 +2436,4 @@
     "Noise isolation"
   ]
 }
-
-
-
 ]
-
-
-
-
-
-
