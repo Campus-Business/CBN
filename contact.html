@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact Us - Campus Business Network</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Checkout - Campus Business Network</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100 text-gray-800">
@@ -14,141 +13,191 @@
 <header class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-4">
   <div class="container mx-auto flex justify-between items-center">
     <h1 class="text-2xl font-bold">Campus Business Network</h1>
-    <nav>
-      <ul class="flex space-x-4">
-        <li><a href="index.html" class="hover:underline">Home</a></li>
-        <li>
-          <a href="cart.html" class="hover:underline">
-            Cart <span id="cart-count" class="ml-1 bg-red-600 text-white text-xs px-2 py-0.5 rounded-full">0</span>
-          </a>
-        </li>
-      </ul>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="cart.html" class="hover:underline">Cart</a>
+      <a href="contact-us.html" class="hover:underline">Contact</a>
     </nav>
   </div>
 </header>
 
-<!-- Contact Section -->
-<section class="py-12">
-  <div class="container mx-auto px-4 max-w-2xl bg-white shadow-lg rounded-2xl p-8">
-    <h2 class="text-3xl font-bold mb-6 text-center">Contact Us</h2>
+<!-- Checkout Section -->
+<section id="checkout-section" class="container mx-auto px-4 py-10 max-w-4xl">
 
-    <div class="text-center text-gray-700 space-y-2 mb-6">
-      <p><i class="fas fa-envelope text-blue-500 mr-2"></i> campusbusiness32@gmail.com</p>
-      <p><i class="fas fa-phone text-green-500 mr-2"></i> +233 55 499 5469</p>
-    </div>
+  <h2 class="text-3xl font-bold mb-8 text-center">Checkout</h2>
 
-    <form class="space-y-4" onsubmit="sendWhatsAppMessage(event)">
-      <input type="text" id="name" placeholder="Your Name" required class="w-full border p-2 rounded">
-      <input type="email" id="email" placeholder="Your Email" required class="w-full border p-2 rounded">
-      <textarea id="message" rows="4" placeholder="Your Message" required class="w-full border p-2 rounded"></textarea>
-      <button class="bg-blue-600 text-white w-full py-2 rounded">Send Message</button>
-    </form>
+  <!-- Order Summary -->
+  <div class="bg-white p-6 rounded-2xl shadow-md mb-8">
+    <h3 class="text-lg font-semibold mb-4">Order Summary</h3>
+    <ul id="summary-list" class="space-y-2 mb-4"></ul>
+    <p class="font-bold text-lg">Total: ₵<span id="summary-total">0</span></p>
   </div>
-</section>
 
-<!-- PREMIUM ABOUT SECTION -->
-<section class="bg-yellow-100 py-10">
-  <div class="container mx-auto px-4">
+  <!-- Customer Form -->
+  <form id="checkout-form" class="bg-white p-6 rounded-2xl shadow-md space-y-4">
+    <h3 class="text-lg font-semibold mb-4">Customer Information</h3>
 
-    <!-- About -->
-    <div class="bg-white rounded-xl p-6 shadow mb-8">
-      <h3 class="text-xl font-bold mb-3">About Campus Business Network</h3>
-      <p class="text-gray-600">
-        Campus Business Network is a fast-growing online marketplace built to serve students and the general public with affordable, reliable, and convenient shopping. We offer electronics, fashion, accessories, and everyday essentials, all in one place with easy ordering and pay-on-delivery options.
-      </p>
-    </div>
-
-    <!-- How It Works -->
-    <div class="bg-white rounded-xl p-6 shadow mb-8">
-      <h3 class="text-xl font-bold mb-4">How It Works</h3>
-      <div class="grid md:grid-cols-4 gap-4 text-center">
-
-        <div>
-          <i class="fas fa-search text-blue-500 text-2xl mb-2"></i>
-          <p class="text-sm">Browse Products</p>
-        </div>
-
-        <div>
-          <i class="fas fa-cart-plus text-green-500 text-2xl mb-2"></i>
-          <p class="text-sm">Add to Cart</p>
-        </div>
-
-        <div>
-          <i class="fas fa-credit-card text-purple-500 text-2xl mb-2"></i>
-          <p class="text-sm">Place Order</p>
-        </div>
-
-        <div>
-          <i class="fas fa-truck text-yellow-500 text-2xl mb-2"></i>
-          <p class="text-sm">Pay on Delivery</p>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Why Choose Us -->
-    <div class="bg-white rounded-xl p-6 shadow mb-8">
-      <h3 class="text-xl font-bold mb-4">Why Choose Us</h3>
-      <ul class="text-gray-600 space-y-2 text-sm">
-        <li>✔ Affordable prices</li>
-        <li>✔ Reliable delivery</li>
-        <li>✔ Quality guaranteed</li>
-        <li>✔ Easy ordering process</li>
-      </ul>
-    </div>
-
-    <!-- Testimonials -->
-    <div class="bg-white rounded-xl p-6 shadow mb-8">
-      <h3 class="text-xl font-bold mb-4">What Customers Say</h3>
-
-      <p class="text-sm text-gray-600 mb-2">“Very fast delivery and trusted service!”</p>
-      <p class="text-sm text-gray-600 mb-2">“Boss ebi solid paa oo.”</p>
-      <p class="text-sm text-gray-600 mb-2">“Affordable and reliable. Highly recommended.”</p>
-      <p class="text-sm text-gray-600 mb-2">“It's not fast like what am expecting.”</p>
-      <p class="text-sm text-gray-600 mb-2">“But I feel it paaa it can take up to 3 hrs depending on the volume.”</p>
-      <p class="text-sm text-gray-600 mb-2">“It met my expectations.”</p>
-      <p class="text-sm text-gray-600 mb-2">“It is nice, I like it.”</p>
+    <input type="text" name="name" placeholder="Full Name" required class="w-full p-2 border rounded">
+    <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-2 border rounded">
+    <input type="text" name="campus" placeholder="Campus" required class="w-full p-2 border rounded">
+    <input type="text" name="hostel" placeholder="Hostel and Room Number Or Your Location" required class="w-full p-2 border rounded"> 
+    <input type="text" name="department" placeholder="Department(optional)" class="w-full p-2 border rounded">
+    <input type="text" name="level" placeholder="Level(optional)" class="w-full p-2 border rounded">
+    <input type="text" name="additional Info" placeholder="Additional Order Details(optional)" class="w-full p-2 border rounded">
     
-    </div>
 
-    <!-- Social -->
-    <div class="bg-white rounded-xl p-6 shadow text-center">
-      <h3 class="text-xl font-bold mb-3">Follow Us</h3>
-      <div class="flex justify-center space-x-6 text-2xl">
-        <a href="https://www.facebook.com/profile.php?id=61563851894852" class="text-blue-600"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.tiktok.com/@cbn_obc?_r=1&_t=ZS-963dvMx2nFE" class="text-black"><i class="fab fa-tiktok"></i></a>
-        <a href="https://www.instagram.com/campus_business_network?igsh=MW1zODRmemxvYmY3aA==&utm_source=ig_contact_invite" class="text-pink-500"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
+    <button type="submit"
+      class="bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 w-full font-semibold">
+      Place Order
+    </button>
+  </form>
 
-  </div>
 </section>
+
+<!-- Success Section (Hidden Initially) -->
+<div id="success-message" class="hidden">
+  <div class="min-h-screen flex items-center justify-center bg-green-100">
+    <div class="bg-white p-8 rounded-2xl shadow-xl text-center max-w-md">
+      <h1 class="text-3xl font-bold text-green-600 mb-4">
+        🎉 Thank You for Your Order!
+      </h1>
+      <p class="mb-4 text-gray-700">
+        Your order has been received successfully.
+      </p>
+      <p id="ref-display" class="font-semibold mb-6"></p>
+      <a href="index.html"
+         class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+         Back to Shop
+      </a>
+    </div>
+  </div>
+</div>
 
 <!-- Footer -->
-<footer class="bg-gray-800 text-white py-4 text-center">
-  <p>&copy; 2026 Campus Business Network</p>
+<footer class="bg-gray-800 text-white py-4">
+  <div class="container mx-auto text-center">
+    <p>&copy; 2026 Campus Business Network. All rights reserved.</p>
+  </div>
 </footer>
 
 <script>
-function updateCartCount() {
-  const cart = JSON.parse(localStorage.getItem('cbn-cart')) || [];
-  const count = cart.reduce((acc, item) => acc + item.qty, 0);
-  document.getElementById('cart-count').textContent = count;
-}
-updateCartCount();
 
-function sendWhatsAppMessage(e) {
+// ===============================
+// 🔹 1. GOOGLE FORM URL
+// ===============================
+const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScJr7Tc5mzS6Igb7Mo-D8FsHwd1nJdcfOrQOG-StSEWvuQPAg/formResponse";
+
+
+
+const ENTRY = {
+   name: "entry.1253103670",
+  phone: "entry.790361168",
+  hostel: "entry.1037151340",
+  department: "entry.178447787",
+  level: "entry.1672730826",
+  order: "entry.1899286163",
+  total: "entry.1434901506",
+  ref: "entry.1391869361",
+  campus: "entry.334424750",
+  additionalinfo: "entry.809644390"
+
+
+};
+
+// ===============================
+// 🔹 CART
+// ===============================
+const cart = JSON.parse(localStorage.getItem("cbn-cart")) || [];
+const summaryList = document.getElementById("summary-list");
+const summaryTotal = document.getElementById("summary-total");
+const checkoutForm = document.getElementById("checkout-form");
+
+let total = 0;
+
+function renderSummary() {
+  summaryList.innerHTML = "";
+  total = 0;
+
+  if (cart.length === 0) {
+    summaryList.innerHTML =
+      "<li class='text-gray-500'>Your cart is empty.</li>";
+    checkoutForm.style.display = "none";
+    return;
+  }
+
+  cart.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent =
+      `${item.name} x${item.qty} = ₵${item.price * item.qty}`;
+    summaryList.appendChild(li);
+    total += item.price * item.qty;
+  });
+
+  summaryTotal.textContent = total;
+}
+
+renderSummary();
+
+// ===============================
+// 🔹 GENERATE REFERENCE
+// ===============================
+function generateReferenceID() {
+  return "CBN-" + Math.floor(100000 + Math.random() * 900000);
+}
+
+// ===============================
+// 🔹 SUBMIT ORDER
+// ===============================
+checkoutForm.addEventListener("submit", function (e) {
+
   e.preventDefault();
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const message = document.getElementById('message').value;
 
-  const url = `https://wa.me/233554995469?text=${encodeURIComponent(
-    `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
-  )}`;
+  if (cart.length === 0) {
+    alert("Your cart is empty.");
+    return;
+  }
 
-  window.open(url, "_blank");
-}
+  const referenceID = generateReferenceID();
+
+  let orderText = "";
+  let orderTotal = 0;
+
+  cart.forEach(item => {
+    orderText += `${item.name} x${item.qty} = ₵${item.price * item.qty}\n`;
+    orderTotal += item.price * item.qty;
+  });
+
+  const formData = new FormData();
+  formData.append(ENTRY.name, this.name.value.trim());
+  formData.append(ENTRY.phone, this.phone.value.trim());
+  formData.append(ENTRY.hostel, this.hostel.value.trim());
+  formData.append(ENTRY.department, this.department.value.trim());
+  formData.append(ENTRY.level, this.level.value.trim());
+  formData.append(ENTRY.order, orderText);
+  formData.append(ENTRY.total, orderTotal);
+  formData.append(ENTRY.ref, referenceID);
+
+  fetch(FORM_URL, {
+    method: "POST",
+    mode: "no-cors",
+    body: formData
+  });
+
+  // Clear cart
+  localStorage.removeItem("cbn-cart");
+
+  // Hide checkout section
+  document.getElementById("checkout-section").style.display = "none";
+
+  // Show success message
+  document.getElementById("success-message").classList.remove("hidden");
+
+  // Display reference
+  document.getElementById("ref-display").innerText =
+    "Reference ID: " + referenceID;
+
+});
+
 </script>
 
 </body>
