@@ -60,9 +60,7 @@ Total: GH₵<span id="summary-total">0</span>
     <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-2 border rounded">
     <input type="text" name="campus" placeholder="Campus" required class="w-full p-2 border rounded">
     <input type="text" name="hostel" placeholder="Hostel Or Your Location" required class="w-full p-2 border rounded"> 
-    <input type="text" name="department" placeholder="Department(optional)" class="w-full p-2 border rounded">
-    <input type="text" name="level" placeholder="Level(optional)" class="w-full p-2 border rounded">
-    <input type="text" name="additional Info" placeholder="Additional Order Details(optional)" class="w-full p-2 border rounded">
+    <input type="text" name="Info" placeholder="Additional Order Details(optional)" class="w-full p-2 border rounded">
     
 
 <button
@@ -101,13 +99,11 @@ const ENTRY = {
   name: "entry.1253103670",
   phone: "entry.790361168",
   hostel: "entry.1037151340",
-  department: "entry.178447787",
-  level: "entry.1672730826",
   order: "entry.1899286163",
   total: "entry.1434901506",
   ref: "entry.1391869361",
   campus: "entry.334424750",
-  additionalinfo: "entry.809644390"
+  Info: "entry.809644390"
 };
 
 /* ===========================
@@ -211,10 +207,8 @@ const formData = new FormData();
 formData.append(ENTRY.name, this.name.value.trim());
   formData.append(ENTRY.phone, this.phone.value.trim());
   formData.append(ENTRY.hostel, this.hostel.value.trim());
-  formData.append(ENTRY.department, this.department.value.trim());
-  formData.append(ENTRY.level, this.level.value.trim());
   formData.append(ENTRY.campus, this.campus.value.trim());
-  formData.append(ENTRY.additionalinfo, this.additionalinfo.value.trim());
+  formData.append(ENTRY.Info, this.Info.value.trim());
   formData.append(ENTRY.order, orderText);
   formData.append(ENTRY.total, orderTotal);
   formData.append(ENTRY.ref, referenceID);
