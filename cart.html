@@ -6,7 +6,13 @@
   <title>Your Cart - Campus Business Network</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js")
+    .then(() => console.log("PWA Ready"))
+    .catch(error => console.log(error));
+}
+</script>
 <body class="bg-gray-100 text-gray-800">
 
 <header class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-4">
