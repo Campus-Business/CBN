@@ -1,21 +1,24 @@
-
 {
   "name": "Campus Business Network",
-  "short_name": "CBN",
+  "short_name": "CBN Market",
+  "description": "Shop affordable products on campus with easy pay-on-delivery.",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#4f46e5",
+  "background_color": "#f3f4f6",
+  "theme_color": "#16a34a",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "launchericon-192x192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "launchericon-512x512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
