@@ -36,7 +36,7 @@ Cart
 class="absolute -top-2 -right-3 bg-red-600 text-xs px-2 py-0.5 rounded-full">0</span>
 </a>
 
-<a href="Contact-us.html">Contact</a>
+<a href="contact.html">Contact</a>
 
 </div>
 
@@ -66,36 +66,12 @@ Total: GH₵<span id="summary-total">0</span>
 <form id="checkout-form" class="bg-white p-6 rounded-2xl shadow-md space-y-4">
 
 <h3 class="text-lg font-semibold mb-4">Customer Information</h3>
-
-<input type="text"
-name="name"
-placeholder="Full Name"
-required
-class="w-full p-2 border rounded">
-
-<input type="tel"
-name="phone"
-placeholder="Phone Number"
-required
-class="w-full p-2 border rounded">
-
-<input type="text"
-name="hostel"
-placeholder="Hostel and Room Number"
-required
-class="w-full p-2 border rounded">
-
-<textarea
-name="department"
-placeholder="Department"
-required
-class="w-full p-2 border rounded"></textarea>
-
-<input type="text"
-name="level"
-placeholder="Level"
-required
-class="w-full p-2 border rounded">
+   <input type="text" name="name" placeholder="Full Name" required class="w-full p-2 border rounded">
+    <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-2 border rounded">
+    <input type="text" name="campus" placeholder="Campus" required class="w-full p-2 border rounded">
+    <input type="text" name="hostel" placeholder="Hostel Or Your Location" required class="w-full p-2 border rounded"> 
+    <input type="text" name="Info" placeholder="Additional Order Details(optional)" class="w-full p-2 border rounded">
+    
 
 <button
 type="submit"
@@ -133,11 +109,11 @@ const ENTRY = {
   name: "entry.1253103670",
   phone: "entry.790361168",
   hostel: "entry.1037151340",
-  department: "entry.178447787",
-  level: "entry.1672730826",
   order: "entry.1899286163",
   total: "entry.1434901506",
-  ref: "entry.1391869361"
+  ref: "entry.1391869361",
+  campus: "entry.334424750",
+  Info: "entry.809644390"
 };
 
 /* ===========================
@@ -239,13 +215,13 @@ orderTotal += item.price * item.qty;
 const formData = new FormData();
 
 formData.append(ENTRY.name, this.name.value.trim());
-formData.append(ENTRY.phone, this.phone.value.trim());
-formData.append(ENTRY.hostel, this.hostel.value.trim());
-formData.append(ENTRY.department, this.department.value.trim());
-formData.append(ENTRY.level, this.level.value.trim());
-formData.append(ENTRY.order, orderText);
-formData.append(ENTRY.total, orderTotal);
-formData.append(ENTRY.ref, referenceID);
+  formData.append(ENTRY.phone, this.phone.value.trim());
+  formData.append(ENTRY.hostel, this.hostel.value.trim());
+  formData.append(ENTRY.campus, this.campus.value.trim());
+  formData.append(ENTRY.Info, this.Info.value.trim());
+  formData.append(ENTRY.order, orderText);
+  formData.append(ENTRY.total, orderTotal);
+  formData.append(ENTRY.ref, referenceID);
 
 fetch(FORM_URL,{
 method:"POST",
@@ -298,5 +274,3 @@ Back to Shop
 
 </body>
 </html>
-  
-  
