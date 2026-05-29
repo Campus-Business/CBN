@@ -2,7 +2,7 @@
   "name": "Campus Business Network",
   "short_name": "CBN Market",
   "description": "Shop affordable products on campus with easy pay-on-delivery.",
-  "start_url": "/CBN/index.html",
+  "start_url": "/https://campus-business.github.io/CBN/",
   "display": "standalone",
   "background_color": "#f3f4f6",
   "theme_color": "#16a34a",
