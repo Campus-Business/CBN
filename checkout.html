@@ -70,8 +70,8 @@ Total: GH₵<span id="summary-total">0</span>
     <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-2 border rounded">
     <input type="text" name="campus" placeholder="Campus" required class="w-full p-2 border rounded">
     <input type="text" name="hostel" placeholder="Hostel Or Your Location" required class="w-full p-2 border rounded"> 
-    <input type="text" name="Info" placeholder="Additional Order Details(optional)" class="w-full p-2 border rounded">
-    
+    <input type="text" name="referral" placeholder="referral if any (optional)" class="w-full p-2 border rounded">
+    <input type="text" name="Info" placeholder="Additional Order Details (optional)" class="w-full p-2 border rounded">   
 
 <button
 type="submit"
@@ -113,7 +113,8 @@ const ENTRY = {
   total: "entry.1434901506",
   ref: "entry.1391869361",
   campus: "entry.334424750",
-  Info: "entry.809644390"
+  Info: "entry.809644390",
+  referral: "entry.71524624"
 };
 
 /* ===========================
@@ -219,6 +220,7 @@ formData.append(ENTRY.name, this.name.value.trim());
   formData.append(ENTRY.hostel, this.hostel.value.trim());
   formData.append(ENTRY.campus, this.campus.value.trim());
   formData.append(ENTRY.Info, this.Info.value.trim());
+  formData.append(ENTRY.referral, this.referral.value.trim());
   formData.append(ENTRY.order, orderText);
   formData.append(ENTRY.total, orderTotal);
   formData.append(ENTRY.ref, referenceID);
