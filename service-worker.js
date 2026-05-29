@@ -1,12 +1,12 @@
 const CACHE_NAME = "cbn-cache-v1";
 
 const ASSETS = [
-  "/",
-  "/index.html",
-  "/Cart.html",
-  "/Checkout.html",
-  "/Contact-us.html",
-  "/manifest.json"
+  "./",
+  "./index.html",
+  "./Cart.html",
+  "./Checkout.html",
+  "./Contact-us.html",
+  "./manifest.json"
 ];
 
 // Install: cache all core files
