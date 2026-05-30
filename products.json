@@ -1,7 +1,478 @@
 
   [
- 
-{
+  {
+    "id": 92,
+    "name": "HDMI to VGA Adapter",
+    "price": 60,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["2t.jpg"],
+    "specs": [
+      "HDMI to VGA conversion",
+      "Plug and play",
+      "Supports HD resolution",
+      "Compact design",
+      "Durable build"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "HDMI Cable",
+    "price": 70,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["3t.jpeg"],
+    "specs": [
+      "High-speed transmission",
+      "Supports HD video",
+      "Durable cable",
+      "Universal compatibility",
+      "Flexible design"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Type-C To HDMI",
+    "price": 70,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["4t.jpg"],
+    "specs": [
+      "Multi-port support",
+      "USB-C compatibility",
+      "Fast data transfer",
+      "Compact design",
+      "Plug and play"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "WiFi & Bluetooth USB Adapter",
+    "price": 100,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["5t.jpg"],
+    "specs": [
+      "WiFi connectivity",
+      "Bluetooth 4.2 support",
+      "USB interface",
+      "Fast data transfer",
+      "Easy installation"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "PS3 DualShock Controller (Black)",
+    "price": 85,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["6t.jpg"],
+    "specs": [
+      "Wireless controller",
+      "Dual vibration feedback",
+      "Ergonomic design",
+      "Rechargeable battery",
+      "Compatible with PS3"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "HDMI Converter",
+    "price": 190,
+   "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["7t.jpg"],
+    "specs": [
+      "Type-c",
+      "Ethernet Port",
+      "USB Port",
+      "SD Card Slot",
+      "HDMI Slot"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Xbox 360 Controller (Black)",
+    "price": 190,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["8t.jpg"],
+    "specs": [
+      "Wireless connectivity",
+      "Ergonomic grip",
+      "Responsive buttons",
+      "Compatible with Xbox 360",
+      "Long battery life"
+    ]
+  },
+   {
+    "id": 120,
+    "name": "Xbox 360 Controlle (White)",
+    "price": 190,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["9t.jpg"],
+    "specs": [
+      "Wireless connectivity",
+      "Ergonomic grip",
+      "Responsive buttons",
+      "Compatible with Xbox 360",
+      "Long battery life"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "2.4GHz Wireless Keyboard With Mouse",
+    "price": 200,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["10t.jpg"],
+    "specs": [
+      "Wireless connection",
+      "Slim design",
+      "Quiet typing",
+      "Long battery life",
+      "USB receiver included",
+      "Keyboard With Mouse"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Foldable Bluetooth Keyboard",
+    "price": 320,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["11t.jpg"],
+    "specs": [
+      "Foldable Bluetooth Keyboard",
+      "Sleek design",
+      "High Sensitive Touchpaad",
+      "Foldable",
+      "Easy to Carry and Storage",
+      "Up to 10M Working Distance"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "USB Bluetooth Adapter V5.1",
+    "price": 45,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["12t.jpg"],
+    "specs": [
+      "Bluetooth 5.1 support",
+      "USB interface",
+      "Fast connectivity",
+      "Plug and play",
+      "Compact size"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "MTN Broadband Router",
+    "price": 550,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["13t.jpg"],
+    "specs": [
+      "High-speed broadband",
+      "Strong network signal",
+      "Multiple user support",
+      "Portable design",
+      "Easy setup"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "MTN WiFi",
+    "price": 335,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["14t.jpg"],
+    "specs": [
+      "Portable WiFi hotspot",
+      "4G connectivity",
+      "Rechargeable battery",
+      "Supports multiple devices",
+      "Compact design"
+    ]
+  },
+  
+  {
+    "id": 121,
+    "name": "MTN WiFi Device",
+    "price": 320,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["15t.jpg"],
+    "specs": [
+      "Portable WiFi hotspot",
+      "4G connectivity",
+      "Rechargeable battery",
+      "Supports multiple devices",
+      "Compact design"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "PS3 DualShock Controller (Yellow)",
+    "price": 90,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["16t.jpg"],
+    "specs": [
+      "Wireless controller",
+      "Dual vibration",
+      "Ergonomic design",
+      "Rechargeable",
+      "PS3 compatible"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Wireless Mouse 5GHz",
+    "price":45 ,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["17t.jpg"],
+    "specs": [
+      "HP 5GHz wireless connection",
+      "Ergonomic design",
+      "Silent clicks",
+      "USB receiver",
+      "Energy saving",
+      "Not Rechargeable"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "W7500 Wireless Mouse",
+    "price": 45,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["18t.jpg"],
+    "specs": [
+      "Wireless connection",
+      "High precision sensor",
+      "Comfortable grip",
+      "Long battery life",
+      "Durable buttons",
+      "Not Rechargeable"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Mini DisplayPort Adapter (Black)",
+    "price": 105,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["19t.jpg"],
+    "specs": [
+      "Mini DisplayPort support",
+      "HD video output",
+      "Compact design",
+      "Plug and play",
+      "Durable build"
+    ]
+  },
+  
+  {
+    "id": 115,
+    "name": "Mini DisplayPort Adapter (White)",
+    "price": 110,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["20t.jpg"],
+    "specs": [
+      "Mini DisplayPort support",
+      "HD video output",
+      "Compact design",
+      "Plug and play",
+      "Durable build"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Desktop Phone Holder",
+    "price": 45,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["21t.jpg"],
+    "specs": [
+      "Adjustable angle",
+      "Stable base",
+      "Foldable design",
+      "Compatible with smartphones",
+      "Portable"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "PS3 DualShock Controller (Red)",
+    "price": 85,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["22t.jpg"],
+    "specs": [
+      "Wireless connection",
+      "Dual vibration feedback",
+      "Rechargeable battery",
+      "Ergonomic design",
+      "PS3 compatible"
+    ]
+  },  
+  {
+    "id": 110,
+    "name": "PS4 Wireless Controller (Camouflage)",
+    "price": 180,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["23t.jpg"],
+    "specs": [
+      "Wireless connectivity",
+      "DualShock vibration",
+      "Ergonomic design",
+      "Rechargeable battery",
+      "PS4 compatible"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "PS4 Wireless Controller (Purple)",
+    "price": 170,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["24t.jpg"],
+    "specs": [
+      "Bluetooth connectivity",
+      "DualShock feedback",
+      "Comfortable grip",
+      "Rechargeable",
+      "PS4 compatible"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "USB 3.0 Hub (4 Ports)",
+    "price": 55,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["25t.jpg"],
+    "specs": [
+      "USB 3.0 high-speed transfer",
+      "4 USB ports",
+      "Plug and play",
+      "Compact design",
+      "Wide compatibility"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "PS4 Controller (Purple)",
+    "price": 190,
+    "vendor": "Thomas",
+    "category": "Accessories",
+    "images": ["26t.jpg"],
+    "specs": [
+      "Wireless connection",
+      "Dual vibration motors",
+      "Touchpad support",
+      "Rechargeable battery",
+      "PS4 compatible"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "HP Laptop Power Adapter",
+    "price": 70,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["27t.jpg"],
+    "specs": [
+      "Stable power output",
+      "Overload protection",
+      "Compatible with laptops",
+      "Durable cable",
+      "Energy efficient"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "5G LTE MiFi Router",
+    "price": 370,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["28t.jpg"],
+    "specs": [
+      "4G/5G LTE connectivity",
+      "Portable hotspot",
+      "Rechargeable battery",
+      "Supports multiple users",
+      "High-speed internet"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "4G USB WiFi Modem",
+    "price": 170,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["29t.jpg"],
+    "specs": [
+      "Plug and play USB modem",
+      "4G internet support",
+      "Portable design",
+      "Fast connection speed",
+      "Compatible with laptops"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "5G LTE Wireless Router",
+    "price": 370,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["30t.jpg"],
+    "specs": [
+      "High-speed LTE internet",
+      "Multiple device connection",
+      "Stable signal",
+      "Compact design",
+      "Easy setup"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "HP Laptop Power Adapter (Type-C)",
+    "price": 70,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["31t.jpg"],
+    "specs": [
+      "Slim design",
+      "Type-C",
+      "Efficient power output",
+      "Durable cable",
+      "Safe charging",
+      "Lightweight"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Acer Laptop Charger Adapter (Black)",
+    "price": 70,
+    "vendor": "Thomas",
+    "category": "Electronics",
+    "images": ["32t.jpg"],
+    "specs": [
+      "Stable voltage output",
+      "Overheat protection",
+      "Compatible with laptops",
+      "Durable build",
+      "Long cable"
+    ]
+  }
+,{
   "id": 131,
   "name": "Fast Charger",
   "price": 45.75,
