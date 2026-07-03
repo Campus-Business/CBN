@@ -294,7 +294,7 @@
   {
     "id": 108,
     "name": "Desktop Phone Holder",
-    "price": 45,
+    "price": 50,
     "vendor": "Thomas",
     "category": "Accessories",
     "images": ["21t.jpg"],
@@ -868,7 +868,7 @@
     {
   "id": 63,
   "name": "USB-C 50W Power Adapter",
-  "price": 35,
+  "price": 40,
   "vendor": "Daddy",
   "category": "Accessories",
   "images": ["d9.jpeg"],
@@ -913,7 +913,7 @@
   {
     "id": 81,
     "name": "Wall Charger Adapter",
-    "price": 35,
+    "price": 40,
     "vendor": "Saiba",
     "category": "Accessories",
     "images": ["47t.jpg"],
@@ -949,7 +949,7 @@
   {
     "id": 2,
     "name": "Oraimo Necklace Headphone",
-    "price": 60,
+    "price": 70,
     "category": "Accessories",
     "images": ["oraimo.webp"],
     "specs": ["Wireless", "10hr Battery", "Water Resistant", "LCD display + phone monitoring function"]
@@ -1109,7 +1109,7 @@
  {
   "id": 4,
   "name": "HP RGB Wireless Mouse",
-  "price": 50,
+  "price": 55,
   "vendor": "Saiba",
   "category": "Electronics",
   "images": [
@@ -1135,7 +1135,7 @@
   {
     "id": 5,
     "name": "Oraimo Air 12",
-    "price": 50,
+    "price": 60,
      "vendor": "Saiba",
     "category": "Accessories",
     "images": ["35.jpg"],
@@ -1214,7 +1214,7 @@
     {
   "id": 57,
   "name": "Pro 5S Wireless Earbuds",
-  "price": 55,
+  "price": 65,
   "vendor": "Daddy",
   "category": "Electronics",
   "images": ["d3.jpeg"],
@@ -1646,7 +1646,7 @@
 {
   "id": 164,
   "name": "PD Fast Charger",
-  "price": 38.90,
+  "price": 40,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": ["57t.jpg"],
@@ -1977,7 +1977,7 @@
 {
   "id": 22,
   "name": "Dell Wireless Mouse",
-  "price": 35,
+  "price": 40,
   "vendor": "Saiba",
   "category": "Accessories",
   "images": [
@@ -2199,7 +2199,7 @@
   {
     "id": 72,
     "name": "Casio Scientific Calculator fx-991ES Plus",
-    "price": 90,
+    "price": 100,
     "vendor": "Saiba",
     "category": "Electronics",
     "images": ["38t.jpg"],
